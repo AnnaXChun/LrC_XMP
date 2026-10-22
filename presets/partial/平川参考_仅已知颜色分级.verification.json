@@ -1,0 +1,56 @@
+{
+  "preset_file": "平川参考_仅已知颜色分级.xmp",
+  "scope": "Only eight explicitly supplied color-grading values; not a full reproduction of Pingchuan edits.",
+  "sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
+  "validation": {
+    "xml_well_formed": true,
+    "rdf_structure_checked": true,
+    "exact_values_read_back_from_file": true,
+    "specified_adjustment_count": 8,
+    "unexpected_adjustment_count": 0,
+    "lightroom_import_tested": false,
+    "lightroom_panel_visibility_verified": false,
+    "lightroom_photo_application_tested": false,
+    "lightroom_parameter_readback_tested": false,
+    "original_photos_modified": false
+  },
+  "adjustments_read_back": {
+    "SplitToningShadowHue": "156",
+    "SplitToningShadowSaturation": "40",
+    "SplitToningHighlightHue": "100",
+    "SplitToningHighlightSaturation": "7",
+    "ColorGradeMidtoneHue": "335",
+    "ColorGradeMidtoneSat": "32",
+    "ColorGradeBlending": "100",
+    "SplitToningBalance": "100"
+  },
+  "preset_metadata_read_back": {
+    "PresetType": "Normal",
+    "UUID": "EBA50C23476747E6A9D1B64F898FC922",
+    "SupportsAmount": "False",
+    "SupportsColor": "True",
+    "SupportsMonochrome": "True",
+    "HasSettings": "True"
+  },
+  "omitted_due_to_missing_values": [
+    "RGB and red-channel curve points",
+    "Parametric tone curve",
+    "Shadows, Blacks, Highlights, Whites and Clarity",
+    "HSL table (empty in supplied notes)",
+    "Red, Green and Blue primary calibration values",
+    "White balance and exposure adjustment",
+    "Color-grading luminance and global controls"
+  ],
+  "omitted_due_to_ambiguity": [
+    "Adobe RGB color space versus Adobe Color raw profile; iPhone source format unknown"
+  ],
+  "environment": {
+    "lightroom_mcp_available": false,
+    "lightroom_app_found_in_standard_app_directories": false,
+    "preset_installed": false,
+    "standard_user_preset_and_preference_locations_found": false,
+    "publication_note": "Absolute local diagnostic paths omitted from the repository copy. This is the historical check for the initial partial preset; the original local report is retained."
+  },
+  "field_reference": "https://exiftool.sourceforge.net/TagNames/XMP.html#crs",
+  "grading_reference": "https://helpx.adobe.com/lightroom-classic/desktop/process-and-develop-photos/image-tone-color.html"
+}

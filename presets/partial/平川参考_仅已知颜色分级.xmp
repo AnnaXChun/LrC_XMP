@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description
+      rdf:about=""
+      xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+      crs:PresetType="Normal"
+      crs:UUID="EBA50C23476747E6A9D1B64F898FC922"
+      crs:SupportsAmount="False"
+      crs:SupportsColor="True"
+      crs:SupportsMonochrome="True"
+      crs:HasSettings="True"
+      crs:SplitToningShadowHue="156"
+      crs:SplitToningShadowSaturation="40"
+      crs:SplitToningHighlightHue="100"
+      crs:SplitToningHighlightSaturation="7"
+      crs:ColorGradeMidtoneHue="335"
+      crs:ColorGradeMidtoneSat="32"
+      crs:ColorGradeBlending="100"
+      crs:SplitToningBalance="100">
+      <crs:Name>
+        <rdf:Alt>
+          <rdf:li xml:lang="x-default">平川参考｜仅已知颜色分级</rdf:li>
+        </rdf:Alt>
+      </crs:Name>
+      <crs:Group>
+        <rdf:Alt>
+          <rdf:li xml:lang="x-default">平川参考</rdf:li>
+        </rdf:Alt>
+      </crs:Group>
+      <crs:Description>
+        <rdf:Alt>
+          <rdf:li xml:lang="x-default">依据用户提供的笔记，仅保存明确给出的八项颜色分级数值。非完整调色复现，尚未在 Lightroom 中实测。</rdf:li>
+        </rdf:Alt>
+      </crs:Description>
+    </rdf:Description>
+  </rdf:RDF>
+</x:xmpmeta>

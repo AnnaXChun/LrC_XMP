@@ -1,0 +1,31 @@
+{
+  "source": {
+    "type": "user_supplied_notes",
+    "scope": "Initial eight explicitly supplied color-grading values, before the source video was recovered",
+    "historical_name": "平川参考",
+    "later_identified_reference": "LeoCarbin摄影的品川力仿色教程",
+    "later_identified_url": "https://www.douyin.com/video/7635868630110035057"
+  },
+  "expected_scalar_settings": {
+    "SplitToningShadowHue": "156",
+    "SplitToningShadowSaturation": "40",
+    "SplitToningHighlightHue": "100",
+    "SplitToningHighlightSaturation": "7",
+    "ColorGradeMidtoneHue": "335",
+    "ColorGradeMidtoneSat": "32",
+    "ColorGradeBlending": "100",
+    "SplitToningBalance": "100"
+  },
+  "expected_curves": {},
+  "scope_notes": [
+    "Historical partial preset, not a full reproduction. The original filename and XMP bytes are preserved.",
+    "The more complete source-backed reproduction is in presets/confirmed/.",
+    "No exposure, white balance, camera profile, curve, HSL or calibration setting is included."
+  ],
+  "lightroom_runtime_validation": {
+    "imported": false,
+    "visible_in_presets_panel": false,
+    "applied_to_test_photo": false,
+    "parameters_read_back_from_lightroom": false
+  }
+}

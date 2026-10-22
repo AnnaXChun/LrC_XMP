@@ -1,6 +1,6 @@
 {
   "renderer": "lrc-xmp-preview",
-  "renderer_version": "0.1.0",
+  "renderer_version": "0.2.0",
   "adobe_equivalent": false,
   "lightroom_runtime_verified": false,
   "input": "coffee.png",
@@ -8,7 +8,7 @@
   "preset": "平川参考_仅已知颜色分级.xmp",
   "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
   "output": "coffee-grade.png",
-  "output_sha256": "178180e2e56cfd1795d6503c69da94db8a0e00cac70f72d93a047978906964b1",
+  "output_sha256": "09501c2b69a8c9573b452404f8364afa7a80f714b4744e7787d793730615ab8a",
   "normalization": {
     "input_color_handling": "untagged; assumed sRGB",
     "source_size": [

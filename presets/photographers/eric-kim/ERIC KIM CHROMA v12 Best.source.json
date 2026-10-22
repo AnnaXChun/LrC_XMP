@@ -1,0 +1,189 @@
+{
+  "source": {
+    "type": "photographer_published_original_file",
+    "author": "Eric Kim",
+    "official_page": "https://erickimphotography.com/blog/product/eric-kim-lightroom-presets/",
+    "author_recommendations": "https://erickimphotography.com/blog/presets/",
+    "download_url": "https://www.dropbox.com/s/lx8svdtyx0cbkcu/ERIC%20KIM%20ADOBE%20LIGHTROOM%20PRESETS%202020.zip?dl=1",
+    "archive_sha256": "47dde53693771355d5a45f98e10b77a9959e73562b877f0c8dd57d1a0e5aa003",
+    "archive_member": "ERIC KIM ADOBE LIGHTROOM PRESETS 2020/ERIC KIM LIGHTROOM CLASSIC CC PRESETS 2018/ERIC KIM CHROMA v12 Best.xmp",
+    "downloaded_on": "2026-10-22",
+    "original_file_sha256": "908d761b69c1c9c2ca0bc62bdfbdc6c3482a79078b71ea4d45b3220448ad2d5f",
+    "provenance_note": "从作者官网列出的 Dropbox 镜像下载，XMP 与压缩包成员逐字节一致；未修改名称、UUID、数值、曲线或其他设置。",
+    "permission_url": "https://erickimphotography.com/blog/downloads/",
+    "permission_type": "Author website permission statement; no standard license identifier assigned",
+    "permission_excerpt": "All the information on this site, including photos, images, videos, articles, books, or text is free and open source",
+    "derivative_credit_url": "https://erickimphotography.com/blog/2017/07/11/free-eric-kim-lightroom-presets/",
+    "derivative_credit_note": "作者在发布页致谢 VSCO，并说明部分预设由既有版本修改而来。这里只称 Eric Kim 本人发布，不声称全部由其原创。"
+  },
+  "expected_scalar_settings": {
+    "ProcessVersion": "6.7",
+    "WhiteBalance": "As Shot",
+    "IncrementalTemperature": "0",
+    "IncrementalTint": "0",
+    "Saturation": "-3",
+    "Sharpness": "0",
+    "LuminanceSmoothing": "28",
+    "ColorNoiseReduction": "71",
+    "VignetteAmount": "0",
+    "ShadowTint": "0",
+    "RedHue": "0",
+    "RedSaturation": "0",
+    "GreenHue": "0",
+    "GreenSaturation": "0",
+    "BlueHue": "0",
+    "BlueSaturation": "0",
+    "Vibrance": "+8",
+    "HueAdjustmentRed": "+10",
+    "HueAdjustmentOrange": "0",
+    "HueAdjustmentYellow": "+10",
+    "HueAdjustmentGreen": "+15",
+    "HueAdjustmentAqua": "+5",
+    "HueAdjustmentBlue": "0",
+    "HueAdjustmentPurple": "+10",
+    "HueAdjustmentMagenta": "+10",
+    "SaturationAdjustmentRed": "0",
+    "SaturationAdjustmentOrange": "-33",
+    "SaturationAdjustmentYellow": "0",
+    "SaturationAdjustmentGreen": "-35",
+    "SaturationAdjustmentAqua": "-35",
+    "SaturationAdjustmentBlue": "-10",
+    "SaturationAdjustmentPurple": "-10",
+    "SaturationAdjustmentMagenta": "+5",
+    "LuminanceAdjustmentRed": "+3",
+    "LuminanceAdjustmentOrange": "+55",
+    "LuminanceAdjustmentYellow": "-68",
+    "LuminanceAdjustmentGreen": "-66",
+    "LuminanceAdjustmentAqua": "+14",
+    "LuminanceAdjustmentBlue": "-10",
+    "LuminanceAdjustmentPurple": "+10",
+    "LuminanceAdjustmentMagenta": "+10",
+    "SplitToningShadowHue": "0",
+    "SplitToningShadowSaturation": "0",
+    "SplitToningHighlightHue": "0",
+    "SplitToningHighlightSaturation": "0",
+    "SplitToningBalance": "0",
+    "ParametricShadows": "-100",
+    "ParametricDarks": "-68",
+    "ParametricLights": "+55",
+    "ParametricHighlights": "-28",
+    "ParametricShadowSplit": "13",
+    "ParametricMidtoneSplit": "45",
+    "ParametricHighlightSplit": "75",
+    "SharpenRadius": "+1.4",
+    "SharpenDetail": "17",
+    "SharpenEdgeMasking": "0",
+    "PostCropVignetteAmount": "0",
+    "GrainAmount": "54",
+    "GrainSize": "47",
+    "GrainFrequency": "44",
+    "LuminanceNoiseReductionDetail": "50",
+    "ColorNoiseReductionDetail": "34",
+    "LuminanceNoiseReductionContrast": "0",
+    "ColorNoiseReductionSmoothness": "20",
+    "LensManualDistortionAmount": "0",
+    "AutoLateralCA": "0",
+    "Exposure2012": "+0.39",
+    "Contrast2012": "+100",
+    "Highlights2012": "-23",
+    "Shadows2012": "-28",
+    "Whites2012": "+64",
+    "Blacks2012": "-100",
+    "Clarity2012": "0",
+    "DefringePurpleAmount": "0",
+    "DefringePurpleHueLo": "30",
+    "DefringePurpleHueHi": "70",
+    "DefringeGreenAmount": "0",
+    "DefringeGreenHueLo": "40",
+    "DefringeGreenHueHi": "60",
+    "Dehaze": "0",
+    "ConvertToGrayscale": "False",
+    "OverrideLookVignette": "False",
+    "ToneCurveName2012": "Custom",
+    "CameraProfile": "Embedded",
+    "Look": "<ns0:Look xmlns:ns0=\"http://ns.adobe.com/camera-raw-settings/1.0/\" ns0:Name=\"\" />\n  "
+  },
+  "expected_curves": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        0
+      ],
+      [
+        49,
+        66
+      ],
+      [
+        122,
+        124
+      ],
+      [
+        255,
+        253
+      ]
+    ],
+    "ToneCurvePV2012Red": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Green": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Blue": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ]
+  },
+  "expected_metadata": {
+    "PresetType": "Normal",
+    "Cluster": "",
+    "UUID": "48745A389F3EFC874F24DBF0A065DF4B",
+    "SupportsAmount": "False",
+    "SupportsColor": "True",
+    "SupportsMonochrome": "True",
+    "SupportsHighDynamicRange": "True",
+    "SupportsNormalDynamicRange": "True",
+    "SupportsSceneReferred": "True",
+    "SupportsOutputReferred": "True",
+    "CameraModelRestriction": "",
+    "Copyright": "",
+    "ContactInfo": "",
+    "Version": "10.3",
+    "HasSettings": "True",
+    "Name": "ERIC KIM CHROMA v12 Best",
+    "ShortName": "",
+    "SortName": "ERIC KIM CHROMA v12 Best",
+    "Group": "User Presets",
+    "Description": ""
+  },
+  "scope_notes": [
+    "包含作者固定曝光等设置，完整保留；未按这批样张优化。",
+    "RAW 白平衡、配置文件、校准、颗粒、锐化、降噪、暗角及其他未实现项保留在 XMP 中，Python 跳过并逐项报告。",
+    "作者说明部分款式针对 Ricoh GR II 优化；当前样张为已渲染 JPEG/PNG，不等于原生 RAW 或 Lightroom 实测。"
+  ],
+  "lightroom_runtime_validation": {
+    "imported": false,
+    "visible_in_presets_panel": false,
+    "applied_to_test_photo": false,
+    "parameters_read_back_from_lightroom": false
+  }
+}

@@ -1,6 +1,6 @@
 {
   "renderer": "lrc-xmp-preview",
-  "renderer_version": "0.1.0",
+  "renderer_version": "0.2.0",
   "adobe_equivalent": false,
   "lightroom_runtime_verified": false,
   "input": "garden.jpg",
@@ -8,7 +8,7 @@
   "preset": "品川力仿色_原视频确认值_ProRAW.xmp",
   "preset_sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35",
   "output": "garden-main.png",
-  "output_sha256": "c9fef2178a96130b1bbaee10a190b05c415988b9c3ec20cc0224b5d3676f108a",
+  "output_sha256": "de61569ecf166c776fc8538c6c4439a2dc95bba910347cc32b400c97cd09289f",
   "normalization": {
     "input_color_handling": "untagged; assumed sRGB",
     "source_size": [

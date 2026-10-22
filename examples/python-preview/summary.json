@@ -1,43 +1,55 @@
 {
   "adobe_equivalent": false,
-  "preset_count": 6,
+  "preset_count": 8,
   "sample_count": 4,
   "presets": [
     {
       "key": "main",
-      "name": "品川力仿色 · 主版",
+      "name": "LeoCarbin · 品川力仿色",
       "file": "品川力仿色_原视频确认值_ProRAW.xmp",
       "sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35"
     },
     {
       "key": "grade",
-      "name": "仅颜色分级 · 简版",
+      "name": "用户笔记 · 颜色分级",
       "file": "平川参考_仅已知颜色分级.xmp",
       "sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd"
     },
     {
-      "key": "preset-5078bf2caef0f7d3",
-      "name": "柔光日常｜风格研究",
-      "file": "01_柔光日常_风格研究.xmp",
-      "sha256": "077b87f617da6a8655b1785fcb7e1567bb0f5f6a3dd1fe363969e4b89f5da15f"
+      "key": "preset-c1cedd37f97f483a",
+      "name": "ERIC KIM CHROMA v12 Best",
+      "file": "ERIC KIM CHROMA v12 Best.xmp",
+      "sha256": "908d761b69c1c9c2ca0bc62bdfbdc6c3482a79078b71ea4d45b3220448ad2d5f"
     },
     {
-      "key": "preset-53ce1340e1a22633",
-      "name": "雨窗暖色｜风格研究",
-      "file": "02_雨窗暖色_风格研究.xmp",
-      "sha256": "109e99d9f2bd633a8d84b317f8330945cac6c76906a9661f51bf73da034e8da5"
+      "key": "preset-4f44ed193077883c",
+      "name": "Eric Kim Color 1600 v10",
+      "file": "Eric Kim Color 1600 v10.xmp",
+      "sha256": "ddce7952af52788b5985dc0624e5f805b1e7753a8a55e574e00d192c56b9212b"
     },
     {
-      "key": "preset-380a8422d01dc76c",
-      "name": "烈日浓色｜风格研究",
-      "file": "03_烈日浓色_风格研究.xmp",
-      "sha256": "ab75a555c1e4e18ad98398f3b5b94f93afb030bf442cea1096113310b2a007a0"
+      "key": "preset-cae62037008c5859",
+      "name": "Eric Kim Monochrome 1600",
+      "file": "Eric Kim Monochrome 1600.xmp",
+      "sha256": "99a69e6c79b25a0eb491d776b5d96db4de67e7d2b22e060a7a844b41b70ee13b"
     },
     {
-      "key": "preset-5e26209e56fb2edd",
-      "name": "冷夜暖灯｜风格研究",
-      "file": "04_冷夜暖灯_风格研究.xmp",
-      "sha256": "2be37305b0422fb6553d839098a12d97b3e5bd2b9fc606148e5306bfce0df23c"
+      "key": "preset-e7870e147bd481a6",
+      "name": "Eric Kim Neopan 1600",
+      "file": "Eric Kim Neopan 1600.xmp",
+      "sha256": "4192004d8e3d38b5687e99496ed15a3ed16030cac4ce76c33fe828595e61a74d"
+    },
+    {
+      "key": "preset-6f10517ad3d8c71c",
+      "name": "Eric Kim Portra 160",
+      "file": "Eric Kim Portra 160.xmp",
+      "sha256": "4e0cfd2eda82c5414950b6a538937c0974359f86006966ad4247d3dede311d5d"
+    },
+    {
+      "key": "preset-91c5fbbe37ffe12f",
+      "name": "Eric Kim Portra 800 v2",
+      "file": "Eric Kim Portra 800 v2.xmp",
+      "sha256": "322592aecd9460d599203be27043e447f5363352d46f61464f9ef19fadb12323"
     }
   ],
   "renders": [
@@ -67,51 +79,75 @@
     },
     {
       "sample": "garden",
-      "variant": "preset-5078bf2caef0f7d3",
+      "variant": "preset-c1cedd37f97f483a",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 24,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 38,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.06348758070598906
+      "mean_absolute_channel_difference": 0.14601565976142225
     },
     {
       "sample": "garden",
-      "variant": "preset-53ce1340e1a22633",
+      "variant": "preset-4f44ed193077883c",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 26,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 39,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.04291907450513063
+      "mean_absolute_channel_difference": 0.16988908303476985
     },
     {
       "sample": "garden",
-      "variant": "preset-380a8422d01dc76c",
+      "variant": "preset-cae62037008c5859",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 26,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 28,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 28,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.06439612828964794
+      "mean_absolute_channel_difference": 0.17709603875483965
     },
     {
       "sample": "garden",
-      "variant": "preset-5e26209e56fb2edd",
+      "variant": "preset-e7870e147bd481a6",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 24,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 28,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 25,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.06812960005358097
+      "mean_absolute_channel_difference": 0.08779272195266785
+    },
+    {
+      "sample": "garden",
+      "variant": "preset-6f10517ad3d8c71c",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 33,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.0710741580308705
+    },
+    {
+      "sample": "garden",
+      "variant": "preset-91c5fbbe37ffe12f",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 38,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.0935233878821078
     },
     {
       "sample": "coffee",
@@ -139,51 +175,75 @@
     },
     {
       "sample": "coffee",
-      "variant": "preset-5078bf2caef0f7d3",
+      "variant": "preset-c1cedd37f97f483a",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 24,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 38,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.05979035353737584
+      "mean_absolute_channel_difference": 0.13249438981309286
     },
     {
       "sample": "coffee",
-      "variant": "preset-53ce1340e1a22633",
+      "variant": "preset-4f44ed193077883c",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 26,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 39,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.042159667153856654
+      "mean_absolute_channel_difference": 0.18882228972924398
     },
     {
       "sample": "coffee",
-      "variant": "preset-380a8422d01dc76c",
+      "variant": "preset-cae62037008c5859",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 26,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 28,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 28,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.06201632892427895
+      "mean_absolute_channel_difference": 0.21040949254882046
     },
     {
       "sample": "coffee",
-      "variant": "preset-5e26209e56fb2edd",
+      "variant": "preset-e7870e147bd481a6",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 24,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 28,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 25,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.06916947278614674
+      "mean_absolute_channel_difference": 0.17048065155278652
+    },
+    {
+      "sample": "coffee",
+      "variant": "preset-6f10517ad3d8c71c",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 33,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.1469983459330442
+    },
+    {
+      "sample": "coffee",
+      "variant": "preset-91c5fbbe37ffe12f",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 38,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.06495045457219098
     },
     {
       "sample": "astronaut",
@@ -211,51 +271,75 @@
     },
     {
       "sample": "astronaut",
-      "variant": "preset-5078bf2caef0f7d3",
+      "variant": "preset-c1cedd37f97f483a",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 24,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 38,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.04436908900416372
+      "mean_absolute_channel_difference": 0.14345763118477117
     },
     {
       "sample": "astronaut",
-      "variant": "preset-53ce1340e1a22633",
+      "variant": "preset-4f44ed193077883c",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 26,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 39,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.04937524696940448
+      "mean_absolute_channel_difference": 0.1940241775803063
     },
     {
       "sample": "astronaut",
-      "variant": "preset-380a8422d01dc76c",
+      "variant": "preset-cae62037008c5859",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 26,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 28,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 28,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.04903944664339483
+      "mean_absolute_channel_difference": 0.1908534753981589
     },
     {
       "sample": "astronaut",
-      "variant": "preset-5e26209e56fb2edd",
+      "variant": "preset-e7870e147bd481a6",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 24,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 28,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 25,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.06071183746447895
+      "mean_absolute_channel_difference": 0.15517443642263115
+    },
+    {
+      "sample": "astronaut",
+      "variant": "preset-6f10517ad3d8c71c",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 33,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.12422639324867203
+    },
+    {
+      "sample": "astronaut",
+      "variant": "preset-91c5fbbe37ffe12f",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 38,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.0637825787361576
     },
     {
       "sample": "rocket",
@@ -283,51 +367,75 @@
     },
     {
       "sample": "rocket",
-      "variant": "preset-5078bf2caef0f7d3",
+      "variant": "preset-c1cedd37f97f483a",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 24,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 38,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.06623845298282723
+      "mean_absolute_channel_difference": 0.1318828081429458
     },
     {
       "sample": "rocket",
-      "variant": "preset-53ce1340e1a22633",
+      "variant": "preset-4f44ed193077883c",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 26,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 39,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.036636802398226566
+      "mean_absolute_channel_difference": 0.11870352028557234
     },
     {
       "sample": "rocket",
-      "variant": "preset-380a8422d01dc76c",
+      "variant": "preset-cae62037008c5859",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 26,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 28,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 28,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.07984359380536137
+      "mean_absolute_channel_difference": 0.14778595601777067
     },
     {
       "sample": "rocket",
-      "variant": "preset-5e26209e56fb2edd",
+      "variant": "preset-e7870e147bd481a6",
       "source_unchanged": true,
       "coverage": {
-        "approximate": 24,
-        "anchors_preserved_interpolation_approximate": 1,
-        "skipped": 0,
+        "approximate": 28,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 25,
         "descriptive": 1
       },
-      "mean_absolute_channel_difference": 0.06350063383414832
+      "mean_absolute_channel_difference": 0.09628040859912432
+    },
+    {
+      "sample": "rocket",
+      "variant": "preset-6f10517ad3d8c71c",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 33,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.04744617798307805
+    },
+    {
+      "sample": "rocket",
+      "variant": "preset-91c5fbbe37ffe12f",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 46,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 38,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.12718881904541166
     }
   ]
 }

@@ -29,6 +29,8 @@ META = {
     "PresetType", "UUID", "SupportsAmount", "SupportsColor",
     "SupportsMonochrome", "SupportsSceneReferred", "SupportsOutputReferred",
     "HasSettings", "Name", "Group", "Description",
+    "Cluster", "ShortName", "SortName", "Copyright", "ContactInfo", "Version",
+    "CameraModelRestriction", "SupportsHighDynamicRange", "SupportsNormalDynamicRange",
 }
 CURVES = ("ToneCurvePV2012", "ToneCurvePV2012Red", "ToneCurvePV2012Green",
           "ToneCurvePV2012Blue")
@@ -36,6 +38,7 @@ COLORS = ("Red", "Orange", "Yellow", "Green", "Aqua", "Blue", "Purple", "Magenta
 CENTERS = np.array([0, 30, 60, 120, 180, 240, 270, 300, 360], dtype=float)
 BASIC = ("Shadows2012", "Blacks2012", "Highlights2012", "Whites2012")
 PARAMETRIC = ("ParametricShadows", "ParametricDarks", "ParametricLights", "ParametricHighlights")
+PARAMETRIC_SPLITS = ("ParametricShadowSplit", "ParametricMidtoneSplit", "ParametricHighlightSplit")
 GRADING = (
     "SplitToningShadowHue", "SplitToningShadowSaturation",
     "ColorGradeMidtoneHue", "ColorGradeMidtoneSat",
@@ -97,7 +100,7 @@ def read_preset(path: Path) -> Preset:
             if any(v < 0 or v > 255 for p in points for v in p):
                 raise ValueError(f"曲线锚点超出 0–255：{key}")
             curves[key] = points
-        elif len(child) and key not in META:
+        elif (len(child) or child.attrib) and key not in META:
             # Keep unimplemented structures visible in the coverage report.
             scalars[key] = ET.tostring(child, encoding="unicode")
         else:
@@ -106,6 +109,10 @@ def read_preset(path: Path) -> Preset:
     preset = Preset(scalars, curves, metadata)
     for key, value in scalars.items():
         if method_for(key) == "approximate":
+            if key == "ConvertToGrayscale":
+                if value not in {"True", "False"}:
+                    raise ValueError("ConvertToGrayscale 必须为 True 或 False。")
+                continue
             try:
                 number = float(value)
             except ValueError as error:
@@ -117,21 +124,26 @@ def read_preset(path: Path) -> Preset:
                 low, high = (0, 360)
             elif key.endswith(("Saturation", "Sat")) and key in GRADING:
                 low, high = (0, 100)
-            elif key == "ColorGradeBlending":
+            elif key == "ColorGradeBlending" or key in PARAMETRIC_SPLITS:
                 low, high = (0, 100)
             elif key == "Exposure2012":
                 low, high = (-5, 5)
             if not low <= number <= high:
                 raise ValueError(f"参数超出支持范围：{key}={value}")
+    splits = [preset.value(key, default) for key, default in zip(PARAMETRIC_SPLITS, (25, 50, 75))]
+    if not 0 < splits[0] < splits[1] < splits[2] < 100:
+        raise ValueError("区域曲线的三个分割点必须在 0–100 内严格递增。")
     return preset
 
 
 def method_for(key: str) -> str:
     if key == "ToneCurveName2012":
         return "descriptive"
-    supported = {*BASIC, *PARAMETRIC, *GRADING, "Exposure2012", "Clarity2012"}
+    supported = {*BASIC, *PARAMETRIC, *PARAMETRIC_SPLITS, *GRADING,
+                 "Exposure2012", "Clarity2012", "Contrast2012", "Saturation",
+                 "Vibrance", "ConvertToGrayscale"}
     supported.update(prefix + color for prefix in
-                     ("HueAdjustment", "SaturationAdjustment", "LuminanceAdjustment")
+                     ("HueAdjustment", "SaturationAdjustment", "LuminanceAdjustment", "GrayMixer")
                      for color in COLORS)
     return "approximate" if key in supported else "skipped"
 
@@ -255,6 +267,10 @@ def render(rgb: np.ndarray, preset: Preset, *, allow_partial: bool = False) -> n
     out = np.array(rgb, dtype=np.float64, copy=True)
     if "Exposure2012" in preset.scalars:
         out = expose(out, preset.value("Exposure2012"))
+    if "Contrast2012" in preset.scalars:
+        y = luminance(out)
+        # Midpoint-pivoted contrast, intentionally independent of Adobe's model.
+        out = replace_luma(out, np.clip(0.5 + (y - 0.5) * (1 + preset.value("Contrast2012") / 100), 0, 1))
     if any(k in preset.scalars for k in BASIC):
         y = luminance(out)
         masks = [(1 - y) ** 2, (1 - y) ** 4, y ** 2, y ** 4]
@@ -262,7 +278,10 @@ def render(rgb: np.ndarray, preset: Preset, *, allow_partial: bool = False) -> n
         out = replace_luma(out, np.clip(y + shift * y * (1 - y), 0, 1))
     if any(k in preset.scalars for k in PARAMETRIC):
         y = luminance(out)
-        weights = np.exp(-0.5 * ((y[..., None] - [0.125, 0.375, 0.625, 0.875]) / 0.18) ** 2)
+        edges = np.array([0, *[preset.value(k, d) / 100 for k, d in
+                               zip(PARAMETRIC_SPLITS, (25, 50, 75))], 1])
+        centers = (edges[:-1] + edges[1:]) / 2
+        weights = np.exp(-0.5 * ((y[..., None] - centers) / 0.18) ** 2)
         weights /= weights.sum(axis=-1, keepdims=True)
         shift = weights @ np.array([preset.value(k) / 100 for k in PARAMETRIC])
         out = replace_luma(out, np.clip(y + 0.5 * shift * y * (1 - y), 0, 1))
@@ -273,6 +292,17 @@ def render(rgb: np.ndarray, preset: Preset, *, allow_partial: bool = False) -> n
             out[..., channel] = point_curve(out[..., channel], preset.curves[key])
     if any(k.startswith(("HueAdjustment", "SaturationAdjustment", "LuminanceAdjustment")) for k in preset.scalars):
         out = apply_hsl(out, preset)
+    if any(k in preset.scalars for k in ("Saturation", "Vibrance")):
+        h, s, l = rgb_to_hsl(out)
+        s = np.clip(s * (1 + preset.value("Saturation") / 100), 0, 1)
+        s = np.clip(s * (1 + preset.value("Vibrance") / 100 * (1 - s)), 0, 1)
+        out = hsl_to_rgb(h, s, l)
+    if preset.scalars.get("ConvertToGrayscale") == "True":
+        h, s, _ = rgb_to_hsl(out)
+        values = [preset.value("GrayMixer" + color) / 100 for color in COLORS]
+        shift = np.interp(h * 360, CENTERS, values + values[:1])
+        y = np.clip(luminance(out) + 0.25 * shift * s, 0, 1)
+        out = np.repeat(y[..., None], 3, axis=-1)
     if any(k in preset.scalars for k in GRADING):
         out = apply_grading(out, preset)
     if "Clarity2012" in preset.scalars:

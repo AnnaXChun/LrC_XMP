@@ -1,0 +1,155 @@
+{
+  "preset_file": "Eric Kim Monochrome 1600.xmp",
+  "sha256": "99a69e6c79b25a0eb491d776b5d96db4de67e7d2b22e060a7a844b41b70ee13b",
+  "validation": {
+    "xml_well_formed": true,
+    "rdf_structure_checked": true,
+    "byte_identical_to_author_archive_member": true,
+    "exact_values_read_back_from_file": true,
+    "scalar_or_structure_count": 57,
+    "curve_count": 4,
+    "curve_point_count": 10,
+    "unexpected_adjustment_count": 0,
+    "lightroom_import_tested": false,
+    "lightroom_panel_visibility_verified": false,
+    "lightroom_photo_application_tested": false,
+    "lightroom_parameter_readback_tested": false
+  },
+  "adjustments_read_back": {
+    "ProcessVersion": "6.7",
+    "WhiteBalance": "As Shot",
+    "Sharpness": "24",
+    "LuminanceSmoothing": "0",
+    "ColorNoiseReduction": "28",
+    "VignetteAmount": "0",
+    "ShadowTint": "0",
+    "RedHue": "0",
+    "RedSaturation": "0",
+    "GreenHue": "0",
+    "GreenSaturation": "0",
+    "BlueHue": "0",
+    "BlueSaturation": "0",
+    "GrayMixerRed": "-13",
+    "GrayMixerOrange": "-8",
+    "GrayMixerYellow": "-26",
+    "GrayMixerGreen": "-20",
+    "GrayMixerAqua": "+57",
+    "GrayMixerBlue": "-6",
+    "GrayMixerPurple": "+27",
+    "GrayMixerMagenta": "+39",
+    "SplitToningShadowHue": "0",
+    "SplitToningShadowSaturation": "0",
+    "SplitToningHighlightHue": "0",
+    "SplitToningHighlightSaturation": "0",
+    "SplitToningBalance": "0",
+    "ParametricShadows": "-100",
+    "ParametricDarks": "-68",
+    "ParametricLights": "+55",
+    "ParametricHighlights": "-28",
+    "ParametricShadowSplit": "13",
+    "ParametricMidtoneSplit": "45",
+    "ParametricHighlightSplit": "75",
+    "SharpenRadius": "+1.4",
+    "SharpenDetail": "17",
+    "SharpenEdgeMasking": "0",
+    "PostCropVignetteAmount": "0",
+    "GrainAmount": "54",
+    "GrainSize": "47",
+    "GrainFrequency": "44",
+    "ColorNoiseReductionDetail": "34",
+    "ColorNoiseReductionSmoothness": "20",
+    "LensManualDistortionAmount": "0",
+    "AutoLateralCA": "0",
+    "Exposure2012": "+1.15",
+    "Contrast2012": "+100",
+    "Highlights2012": "-74",
+    "Shadows2012": "-42",
+    "Whites2012": "+57",
+    "Blacks2012": "-100",
+    "Clarity2012": "0",
+    "Dehaze": "0",
+    "ConvertToGrayscale": "True",
+    "OverrideLookVignette": "False",
+    "ToneCurveName2012": "Custom",
+    "CameraProfile": "Adobe Standard",
+    "Look": "<ns0:Look xmlns:ns0=\"http://ns.adobe.com/camera-raw-settings/1.0/\" ns0:Name=\"\" />\n  "
+  },
+  "curves_read_back": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        0
+      ],
+      [
+        49,
+        66
+      ],
+      [
+        122,
+        124
+      ],
+      [
+        255,
+        253
+      ]
+    ],
+    "ToneCurvePV2012Red": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Green": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Blue": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ]
+  },
+  "preset_metadata_read_back": {
+    "PresetType": "Normal",
+    "Cluster": "",
+    "UUID": "4359129BB9C8C295CE36DB0871912B6E",
+    "SupportsAmount": "False",
+    "SupportsColor": "True",
+    "SupportsMonochrome": "True",
+    "SupportsHighDynamicRange": "True",
+    "SupportsNormalDynamicRange": "True",
+    "SupportsSceneReferred": "True",
+    "SupportsOutputReferred": "True",
+    "CameraModelRestriction": "",
+    "Copyright": "",
+    "ContactInfo": "",
+    "Version": "10.3",
+    "HasSettings": "True",
+    "Name": "Eric Kim Monochrome 1600",
+    "ShortName": "",
+    "SortName": "Eric Kim Monochrome 1600",
+    "Group": "",
+    "Description": ""
+  },
+  "python_coverage": {
+    "approximate": 28,
+    "anchors_preserved_interpolation_approximate": 4,
+    "skipped": 28,
+    "descriptive": 1
+  }
+}

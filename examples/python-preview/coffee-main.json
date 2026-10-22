@@ -1,6 +1,6 @@
 {
   "renderer": "lrc-xmp-preview",
-  "renderer_version": "0.1.0",
+  "renderer_version": "0.2.0",
   "adobe_equivalent": false,
   "lightroom_runtime_verified": false,
   "input": "coffee.png",
@@ -8,7 +8,7 @@
   "preset": "品川力仿色_原视频确认值_ProRAW.xmp",
   "preset_sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35",
   "output": "coffee-main.png",
-  "output_sha256": "3cf27d1b747beca1b20ef2c0327a39e6da988e9f779dfcfc6a82e777b137d095",
+  "output_sha256": "f2e551a83b83edfdf5f14911757740903f824681241cb6b6bcd2c3a8cda40d9c",
   "normalization": {
     "input_color_handling": "untagged; assumed sRGB",
     "source_size": [

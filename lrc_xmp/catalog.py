@@ -8,8 +8,8 @@ from .preview import read_preset
 
 ROOT = Path(__file__).resolve().parents[1]
 KNOWN = {
-    "confirmed/品川力仿色_原视频确认值_ProRAW.xmp": ("main", "品川力仿色 · 主版"),
-    "partial/平川参考_仅已知颜色分级.xmp": ("grade", "仅颜色分级 · 简版"),
+    "confirmed/品川力仿色_原视频确认值_ProRAW.xmp": ("main", "LeoCarbin · 品川力仿色"),
+    "partial/平川参考_仅已知颜色分级.xmp": ("grade", "用户笔记 · 颜色分级"),
 }
 
 

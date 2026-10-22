@@ -1,0 +1,344 @@
+{
+  "renderer": "lrc-xmp-preview",
+  "renderer_version": "0.2.0",
+  "adobe_equivalent": false,
+  "lightroom_runtime_verified": false,
+  "input": "rocket.jpg",
+  "input_sha256": "c2dd0de7c538df8d111e479619b129464d0269d0ae5fd18ca91d33a7fdfea95c",
+  "preset": "Eric Kim Neopan 1600.xmp",
+  "preset_sha256": "4192004d8e3d38b5687e99496ed15a3ed16030cac4ce76c33fe828595e61a74d",
+  "output": "rocket-preset-e7870e147bd481a6.png",
+  "output_sha256": "803d0c3142449ce5f3ba00e10da9e74d8f0ccd026720a42270cc75b1c7d6e80d",
+  "normalization": {
+    "input_color_handling": "embedded ICC converted to sRGB",
+    "source_size": [
+      640,
+      427
+    ],
+    "preview_size": [
+      640,
+      427
+    ],
+    "exif_orientation_normalized": true,
+    "metadata_removed": true
+  },
+  "coverage": {
+    "counts": {
+      "approximate": 28,
+      "anchors_preserved_interpolation_approximate": 4,
+      "skipped": 25,
+      "descriptive": 1
+    },
+    "fields": {
+      "ProcessVersion": {
+        "value": "6.7",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "WhiteBalance": {
+        "value": "As Shot",
+        "status": "skipped",
+        "reason": "RAW white balance mode cannot be applied to an already rendered sRGB image."
+      },
+      "Sharpness": {
+        "value": "25",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "LuminanceSmoothing": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "ColorNoiseReduction": {
+        "value": "25",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "VignetteAmount": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "ShadowTint": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Adobe camera calibration is not implemented."
+      },
+      "RedHue": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Adobe camera calibration is not implemented."
+      },
+      "RedSaturation": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "GreenHue": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Adobe camera calibration is not implemented."
+      },
+      "GreenSaturation": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "BlueHue": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Adobe camera calibration is not implemented."
+      },
+      "BlueSaturation": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "GrayMixerRed": {
+        "value": "-19",
+        "status": "approximate"
+      },
+      "GrayMixerOrange": {
+        "value": "-2",
+        "status": "approximate"
+      },
+      "GrayMixerYellow": {
+        "value": "-6",
+        "status": "approximate"
+      },
+      "GrayMixerGreen": {
+        "value": "-22",
+        "status": "approximate"
+      },
+      "GrayMixerAqua": {
+        "value": "-19",
+        "status": "approximate"
+      },
+      "GrayMixerBlue": {
+        "value": "0",
+        "status": "approximate"
+      },
+      "GrayMixerPurple": {
+        "value": "+28",
+        "status": "approximate"
+      },
+      "GrayMixerMagenta": {
+        "value": "+5",
+        "status": "approximate"
+      },
+      "SplitToningShadowHue": {
+        "value": "0",
+        "status": "approximate"
+      },
+      "SplitToningShadowSaturation": {
+        "value": "0",
+        "status": "approximate"
+      },
+      "SplitToningHighlightHue": {
+        "value": "0",
+        "status": "approximate"
+      },
+      "SplitToningHighlightSaturation": {
+        "value": "0",
+        "status": "approximate"
+      },
+      "SplitToningBalance": {
+        "value": "0",
+        "status": "approximate"
+      },
+      "ParametricShadows": {
+        "value": "+50",
+        "status": "approximate"
+      },
+      "ParametricDarks": {
+        "value": "-90",
+        "status": "approximate"
+      },
+      "ParametricLights": {
+        "value": "+100",
+        "status": "approximate"
+      },
+      "ParametricHighlights": {
+        "value": "-50",
+        "status": "approximate"
+      },
+      "ParametricShadowSplit": {
+        "value": "10",
+        "status": "approximate"
+      },
+      "ParametricMidtoneSplit": {
+        "value": "55",
+        "status": "approximate"
+      },
+      "ParametricHighlightSplit": {
+        "value": "78",
+        "status": "approximate"
+      },
+      "SharpenRadius": {
+        "value": "+1.0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "SharpenDetail": {
+        "value": "25",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "SharpenEdgeMasking": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "PostCropVignetteAmount": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "GrainAmount": {
+        "value": "61",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "GrainSize": {
+        "value": "25",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "GrainFrequency": {
+        "value": "55",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "ColorNoiseReductionDetail": {
+        "value": "50",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "AutoLateralCA": {
+        "value": "0",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "Exposure2012": {
+        "value": "+0.25",
+        "status": "approximate"
+      },
+      "Contrast2012": {
+        "value": "+100",
+        "status": "approximate"
+      },
+      "Highlights2012": {
+        "value": "-100",
+        "status": "approximate"
+      },
+      "Shadows2012": {
+        "value": "+30",
+        "status": "approximate"
+      },
+      "Whites2012": {
+        "value": "-5",
+        "status": "approximate"
+      },
+      "Blacks2012": {
+        "value": "+32",
+        "status": "approximate"
+      },
+      "Clarity2012": {
+        "value": "0",
+        "status": "approximate"
+      },
+      "ConvertToGrayscale": {
+        "value": "True",
+        "status": "approximate"
+      },
+      "OverrideLookVignette": {
+        "value": "False",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "ToneCurveName2012": {
+        "value": "Custom",
+        "status": "descriptive"
+      },
+      "CameraProfile": {
+        "value": "Embedded",
+        "status": "skipped",
+        "reason": "Adobe Color profile and Adobe RAW pipeline are unavailable."
+      },
+      "Look": {
+        "value": "<ns0:Look xmlns:ns0=\"http://ns.adobe.com/camera-raw-settings/1.0/\" ns0:Name=\"\" />\n  ",
+        "status": "skipped",
+        "reason": "Unsupported setting; never silently applied."
+      },
+      "ToneCurvePV2012": {
+        "value": [
+          [
+            0,
+            24
+          ],
+          [
+            121,
+            131
+          ],
+          [
+            255,
+            255
+          ]
+        ],
+        "status": "anchors_preserved_interpolation_approximate"
+      },
+      "ToneCurvePV2012Red": {
+        "value": [
+          [
+            0,
+            0
+          ],
+          [
+            255,
+            255
+          ]
+        ],
+        "status": "anchors_preserved_interpolation_approximate"
+      },
+      "ToneCurvePV2012Green": {
+        "value": [
+          [
+            0,
+            0
+          ],
+          [
+            255,
+            255
+          ]
+        ],
+        "status": "anchors_preserved_interpolation_approximate"
+      },
+      "ToneCurvePV2012Blue": {
+        "value": [
+          [
+            0,
+            0
+          ],
+          [
+            255,
+            255
+          ]
+        ],
+        "status": "anchors_preserved_interpolation_approximate"
+      }
+    }
+  },
+  "mean_absolute_channel_difference_0_to_1": 0.09628040859912432,
+  "before_mean_rgb": [
+    0.16265764912533334,
+    0.22855426596880585,
+    0.32001496705250854
+  ],
+  "after_mean_rgb": [
+    0.18948481411510065,
+    0.18948481411510065,
+    0.18948481411510065
+  ],
+  "source_files_unchanged": true
+}

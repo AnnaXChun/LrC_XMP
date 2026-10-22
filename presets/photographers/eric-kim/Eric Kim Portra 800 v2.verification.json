@@ -1,0 +1,215 @@
+{
+  "preset_file": "Eric Kim Portra 800 v2.xmp",
+  "sha256": "322592aecd9460d599203be27043e447f5363352d46f61464f9ef19fadb12323",
+  "validation": {
+    "xml_well_formed": true,
+    "rdf_structure_checked": true,
+    "byte_identical_to_author_archive_member": true,
+    "exact_values_read_back_from_file": true,
+    "scalar_or_structure_count": 85,
+    "curve_count": 4,
+    "curve_point_count": 18,
+    "unexpected_adjustment_count": 0,
+    "lightroom_import_tested": false,
+    "lightroom_panel_visibility_verified": false,
+    "lightroom_photo_application_tested": false,
+    "lightroom_parameter_readback_tested": false
+  },
+  "adjustments_read_back": {
+    "ProcessVersion": "6.7",
+    "WhiteBalance": "As Shot",
+    "Saturation": "+5",
+    "Sharpness": "25",
+    "LuminanceSmoothing": "0",
+    "ColorNoiseReduction": "28",
+    "VignetteAmount": "0",
+    "ShadowTint": "-4",
+    "RedHue": "0",
+    "RedSaturation": "0",
+    "GreenHue": "0",
+    "GreenSaturation": "0",
+    "BlueHue": "0",
+    "BlueSaturation": "0",
+    "Vibrance": "0",
+    "HueAdjustmentRed": "+10",
+    "HueAdjustmentOrange": "+2",
+    "HueAdjustmentYellow": "+10",
+    "HueAdjustmentGreen": "+15",
+    "HueAdjustmentAqua": "+5",
+    "HueAdjustmentBlue": "0",
+    "HueAdjustmentPurple": "+10",
+    "HueAdjustmentMagenta": "+10",
+    "SaturationAdjustmentRed": "+5",
+    "SaturationAdjustmentOrange": "-4",
+    "SaturationAdjustmentYellow": "-3",
+    "SaturationAdjustmentGreen": "-35",
+    "SaturationAdjustmentAqua": "-35",
+    "SaturationAdjustmentBlue": "-10",
+    "SaturationAdjustmentPurple": "-10",
+    "SaturationAdjustmentMagenta": "+5",
+    "LuminanceAdjustmentRed": "+10",
+    "LuminanceAdjustmentOrange": "+5",
+    "LuminanceAdjustmentYellow": "0",
+    "LuminanceAdjustmentGreen": "-20",
+    "LuminanceAdjustmentAqua": "0",
+    "LuminanceAdjustmentBlue": "-10",
+    "LuminanceAdjustmentPurple": "+10",
+    "LuminanceAdjustmentMagenta": "+10",
+    "SplitToningShadowHue": "0",
+    "SplitToningShadowSaturation": "0",
+    "SplitToningHighlightHue": "170",
+    "SplitToningHighlightSaturation": "10",
+    "SplitToningBalance": "-88",
+    "ParametricShadows": "0",
+    "ParametricDarks": "-10",
+    "ParametricLights": "+20",
+    "ParametricHighlights": "-10",
+    "ParametricShadowSplit": "25",
+    "ParametricMidtoneSplit": "50",
+    "ParametricHighlightSplit": "75",
+    "SharpenRadius": "+1.0",
+    "SharpenDetail": "25",
+    "SharpenEdgeMasking": "0",
+    "PostCropVignetteAmount": "-7",
+    "PostCropVignetteMidpoint": "0",
+    "PostCropVignetteFeather": "50",
+    "PostCropVignetteRoundness": "0",
+    "PostCropVignetteStyle": "1",
+    "PostCropVignetteHighlightContrast": "0",
+    "GrainAmount": "40",
+    "GrainSize": "25",
+    "GrainFrequency": "40",
+    "ColorNoiseReductionDetail": "34",
+    "ColorNoiseReductionSmoothness": "20",
+    "AutoLateralCA": "0",
+    "Exposure2012": "-0.20",
+    "Contrast2012": "+38",
+    "Highlights2012": "-10",
+    "Shadows2012": "+15",
+    "Whites2012": "-10",
+    "Blacks2012": "+25",
+    "Clarity2012": "0",
+    "DefringePurpleAmount": "0",
+    "DefringePurpleHueLo": "30",
+    "DefringePurpleHueHi": "70",
+    "DefringeGreenAmount": "0",
+    "DefringeGreenHueLo": "40",
+    "DefringeGreenHueHi": "60",
+    "Dehaze": "0",
+    "ConvertToGrayscale": "False",
+    "OverrideLookVignette": "True",
+    "ToneCurveName2012": "Custom",
+    "CameraProfile": "Adobe Standard",
+    "Look": "<ns0:Look xmlns:ns0=\"http://ns.adobe.com/camera-raw-settings/1.0/\" ns0:Name=\"\" />\n  "
+  },
+  "curves_read_back": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        8
+      ],
+      [
+        255,
+        252
+      ]
+    ],
+    "ToneCurvePV2012Red": [
+      [
+        0,
+        0
+      ],
+      [
+        65,
+        36
+      ],
+      [
+        119,
+        127
+      ],
+      [
+        176,
+        192
+      ],
+      [
+        220,
+        230
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Green": [
+      [
+        0,
+        0
+      ],
+      [
+        63,
+        35
+      ],
+      [
+        120,
+        128
+      ],
+      [
+        177,
+        192
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Blue": [
+      [
+        0,
+        0
+      ],
+      [
+        62,
+        34
+      ],
+      [
+        121,
+        127
+      ],
+      [
+        201,
+        214
+      ],
+      [
+        255,
+        255
+      ]
+    ]
+  },
+  "preset_metadata_read_back": {
+    "PresetType": "Normal",
+    "Cluster": "",
+    "UUID": "C58B5B13DBAB16AAA2E88E80E7E4CFC3",
+    "SupportsAmount": "False",
+    "SupportsColor": "True",
+    "SupportsMonochrome": "True",
+    "SupportsHighDynamicRange": "True",
+    "SupportsNormalDynamicRange": "True",
+    "SupportsSceneReferred": "True",
+    "SupportsOutputReferred": "True",
+    "CameraModelRestriction": "",
+    "Copyright": "",
+    "ContactInfo": "",
+    "Version": "10.3",
+    "HasSettings": "True",
+    "Name": "Eric Kim Portra 800 v2",
+    "ShortName": "",
+    "SortName": "Eric Kim Portra 800 v2",
+    "Group": "",
+    "Description": ""
+  },
+  "python_coverage": {
+    "approximate": 46,
+    "anchors_preserved_interpolation_approximate": 4,
+    "skipped": 38,
+    "descriptive": 1
+  }
+}

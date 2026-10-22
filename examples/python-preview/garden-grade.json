@@ -1,6 +1,6 @@
 {
   "renderer": "lrc-xmp-preview",
-  "renderer_version": "0.1.0",
+  "renderer_version": "0.2.0",
   "adobe_equivalent": false,
   "lightroom_runtime_verified": false,
   "input": "garden.jpg",
@@ -8,7 +8,7 @@
   "preset": "平川参考_仅已知颜色分级.xmp",
   "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
   "output": "garden-grade.png",
-  "output_sha256": "0310110a14f39de7467fbe59f750e51bcdc01f12e2e02b6be0f5e171862f3685",
+  "output_sha256": "0577095f16333c44808a7ec0726649b4267b74d5a182cbdd5bdcc14345e3afc7",
   "normalization": {
     "input_color_handling": "untagged; assumed sRGB",
     "source_size": [

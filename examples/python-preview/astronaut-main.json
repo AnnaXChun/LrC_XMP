@@ -1,6 +1,6 @@
 {
   "renderer": "lrc-xmp-preview",
-  "renderer_version": "0.1.0",
+  "renderer_version": "0.2.0",
   "adobe_equivalent": false,
   "lightroom_runtime_verified": false,
   "input": "astronaut.png",
@@ -8,7 +8,7 @@
   "preset": "品川力仿色_原视频确认值_ProRAW.xmp",
   "preset_sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35",
   "output": "astronaut-main.png",
-  "output_sha256": "6662030c35c51cdcaba0fffc1ab947342ee869962c7506e91af1c60cfa8b889c",
+  "output_sha256": "625eef875edaba6e3fc3132846ea5e0bfdfa30aa82ac901667eb96ff16dc59cc",
   "normalization": {
     "input_color_handling": "embedded ICC converted to sRGB",
     "source_size": [

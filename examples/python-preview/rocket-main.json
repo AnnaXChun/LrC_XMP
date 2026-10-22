@@ -1,6 +1,6 @@
 {
   "renderer": "lrc-xmp-preview",
-  "renderer_version": "0.1.0",
+  "renderer_version": "0.2.0",
   "adobe_equivalent": false,
   "lightroom_runtime_verified": false,
   "input": "rocket.jpg",
@@ -8,7 +8,7 @@
   "preset": "品川力仿色_原视频确认值_ProRAW.xmp",
   "preset_sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35",
   "output": "rocket-main.png",
-  "output_sha256": "655c3fe75ea3a23d4bcc5bbb96d0e44b3e575be3140e90a96a296b52e67e79fc",
+  "output_sha256": "8b36913784a2be8152923d99ca8187907f4fcf88ae59394350d2164a9702d115",
   "normalization": {
     "input_color_handling": "embedded ICC converted to sRGB",
     "source_size": [

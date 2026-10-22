@@ -1,0 +1,148 @@
+{
+  "preset_file": "Eric Kim Neopan 1600.xmp",
+  "sha256": "4192004d8e3d38b5687e99496ed15a3ed16030cac4ce76c33fe828595e61a74d",
+  "validation": {
+    "xml_well_formed": true,
+    "rdf_structure_checked": true,
+    "byte_identical_to_author_archive_member": true,
+    "exact_values_read_back_from_file": true,
+    "scalar_or_structure_count": 54,
+    "curve_count": 4,
+    "curve_point_count": 9,
+    "unexpected_adjustment_count": 0,
+    "lightroom_import_tested": false,
+    "lightroom_panel_visibility_verified": false,
+    "lightroom_photo_application_tested": false,
+    "lightroom_parameter_readback_tested": false
+  },
+  "adjustments_read_back": {
+    "ProcessVersion": "6.7",
+    "WhiteBalance": "As Shot",
+    "Sharpness": "25",
+    "LuminanceSmoothing": "0",
+    "ColorNoiseReduction": "25",
+    "VignetteAmount": "0",
+    "ShadowTint": "0",
+    "RedHue": "0",
+    "RedSaturation": "0",
+    "GreenHue": "0",
+    "GreenSaturation": "0",
+    "BlueHue": "0",
+    "BlueSaturation": "0",
+    "GrayMixerRed": "-19",
+    "GrayMixerOrange": "-2",
+    "GrayMixerYellow": "-6",
+    "GrayMixerGreen": "-22",
+    "GrayMixerAqua": "-19",
+    "GrayMixerBlue": "0",
+    "GrayMixerPurple": "+28",
+    "GrayMixerMagenta": "+5",
+    "SplitToningShadowHue": "0",
+    "SplitToningShadowSaturation": "0",
+    "SplitToningHighlightHue": "0",
+    "SplitToningHighlightSaturation": "0",
+    "SplitToningBalance": "0",
+    "ParametricShadows": "+50",
+    "ParametricDarks": "-90",
+    "ParametricLights": "+100",
+    "ParametricHighlights": "-50",
+    "ParametricShadowSplit": "10",
+    "ParametricMidtoneSplit": "55",
+    "ParametricHighlightSplit": "78",
+    "SharpenRadius": "+1.0",
+    "SharpenDetail": "25",
+    "SharpenEdgeMasking": "0",
+    "PostCropVignetteAmount": "0",
+    "GrainAmount": "61",
+    "GrainSize": "25",
+    "GrainFrequency": "55",
+    "ColorNoiseReductionDetail": "50",
+    "AutoLateralCA": "0",
+    "Exposure2012": "+0.25",
+    "Contrast2012": "+100",
+    "Highlights2012": "-100",
+    "Shadows2012": "+30",
+    "Whites2012": "-5",
+    "Blacks2012": "+32",
+    "Clarity2012": "0",
+    "ConvertToGrayscale": "True",
+    "OverrideLookVignette": "False",
+    "ToneCurveName2012": "Custom",
+    "CameraProfile": "Embedded",
+    "Look": "<ns0:Look xmlns:ns0=\"http://ns.adobe.com/camera-raw-settings/1.0/\" ns0:Name=\"\" />\n  "
+  },
+  "curves_read_back": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        24
+      ],
+      [
+        121,
+        131
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Red": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Green": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ],
+    "ToneCurvePV2012Blue": [
+      [
+        0,
+        0
+      ],
+      [
+        255,
+        255
+      ]
+    ]
+  },
+  "preset_metadata_read_back": {
+    "PresetType": "Normal",
+    "Cluster": "",
+    "UUID": "E0958D973FFC621AFBE6F15B2EA50D3E",
+    "SupportsAmount": "False",
+    "SupportsColor": "True",
+    "SupportsMonochrome": "True",
+    "SupportsHighDynamicRange": "True",
+    "SupportsNormalDynamicRange": "True",
+    "SupportsSceneReferred": "True",
+    "SupportsOutputReferred": "True",
+    "CameraModelRestriction": "",
+    "Copyright": "",
+    "ContactInfo": "",
+    "Version": "10.3",
+    "HasSettings": "True",
+    "Name": "Eric Kim Neopan 1600",
+    "ShortName": "",
+    "SortName": "Eric Kim Neopan 1600",
+    "Group": "",
+    "Description": ""
+  },
+  "python_coverage": {
+    "approximate": 28,
+    "anchors_preserved_interpolation_approximate": 4,
+    "skipped": 25,
+    "descriptive": 1
+  }
+}

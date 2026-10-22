@@ -1,6 +1,6 @@
 {
   "renderer": "lrc-xmp-preview",
-  "renderer_version": "0.1.0",
+  "renderer_version": "0.2.0",
   "adobe_equivalent": false,
   "lightroom_runtime_verified": false,
   "input": "rocket.jpg",
@@ -8,7 +8,7 @@
   "preset": "平川参考_仅已知颜色分级.xmp",
   "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
   "output": "rocket-grade.png",
-  "output_sha256": "ad65af13b6d6dd92bb7eea311eb3af33031e070f331d74d60f01130f6e823c91",
+  "output_sha256": "67e8f55e6ed3af57aa3a95fe70371fbdae168a7ace0e34d5605132b9132b7b78",
   "normalization": {
     "input_color_handling": "embedded ICC converted to sRGB",
     "source_size": [

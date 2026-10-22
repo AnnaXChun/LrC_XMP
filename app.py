@@ -27,8 +27,8 @@ if uploaded is None:
 else:
     data, suffix = uploaded.getvalue(), Path(uploaded.name).suffix
 
-st.info("这里展示 Python 近似效果。主版的 Adobe Color、RAW 白平衡和相机校准暂未参与处理，"
-        "与 Lightroom 的实际效果可能不同。HEIC、RAW／DNG 请先导出为 JPG。")
+st.info("这里展示 Python 近似效果。各款的相机配置、RAW 白平衡、颗粒等缺项见处理报告。"
+        "原件中的固定曝光会照常应用，部分照片可能过亮。HEIC、RAW／DNG 请先导出为 JPG。")
 source_key = hashlib.sha256(data + suffix.encode()).hexdigest()
 if st.button(f"一键试遍全部 {len(variants)} 个预设", type="primary"):
     st.session_state.pop("preview_result", None)

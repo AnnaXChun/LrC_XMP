@@ -8,7 +8,7 @@
   "preset": "平川参考_仅已知颜色分级.xmp",
   "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
   "output": "coffee-grade.png",
-  "output_sha256": "03a85fd1fbdbef57dd9fc1da32afe39f8c33833786314964bcf917d9fe7d5fcc",
+  "output_sha256": "273632850342928a9246faaac816e224dd3a9f4c00ec86d3d9393efa39a7e64f",
   "normalization": {
     "input_color_handling": "untagged; assumed sRGB",
     "source_size": [

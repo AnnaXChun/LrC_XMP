@@ -1,18 +1,22 @@
 {
   "adobe_equivalent": false,
-  "renders": [
+  "preset_count": 2,
+  "sample_count": 4,
+  "presets": [
     {
-      "sample": "garden",
-      "variant": "grade",
-      "source_unchanged": true,
-      "coverage": {
-        "approximate": 8,
-        "anchors_preserved_interpolation_approximate": 0,
-        "skipped": 0,
-        "descriptive": 0
-      },
-      "mean_absolute_channel_difference": 0.0065698825517863674
+      "key": "main",
+      "name": "品川力仿色 · 主版",
+      "file": "品川力仿色_原视频确认值_ProRAW.xmp",
+      "sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35"
     },
+    {
+      "key": "grade",
+      "name": "仅颜色分级 · 简版",
+      "file": "平川参考_仅已知颜色分级.xmp",
+      "sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd"
+    }
+  ],
+  "renders": [
     {
       "sample": "garden",
       "variant": "main",
@@ -26,7 +30,7 @@
       "mean_absolute_channel_difference": 0.053588901744587726
     },
     {
-      "sample": "coffee",
+      "sample": "garden",
       "variant": "grade",
       "source_unchanged": true,
       "coverage": {
@@ -35,7 +39,7 @@
         "skipped": 0,
         "descriptive": 0
       },
-      "mean_absolute_channel_difference": 0.0058826188383136946
+      "mean_absolute_channel_difference": 0.0065698825517863674
     },
     {
       "sample": "coffee",
@@ -50,7 +54,7 @@
       "mean_absolute_channel_difference": 0.07081291189521959
     },
     {
-      "sample": "astronaut",
+      "sample": "coffee",
       "variant": "grade",
       "source_unchanged": true,
       "coverage": {
@@ -59,7 +63,7 @@
         "skipped": 0,
         "descriptive": 0
       },
-      "mean_absolute_channel_difference": 0.005767435320132349
+      "mean_absolute_channel_difference": 0.0058826188383136946
     },
     {
       "sample": "astronaut",
@@ -74,7 +78,7 @@
       "mean_absolute_channel_difference": 0.06852744517390987
     },
     {
-      "sample": "rocket",
+      "sample": "astronaut",
       "variant": "grade",
       "source_unchanged": true,
       "coverage": {
@@ -83,7 +87,7 @@
         "skipped": 0,
         "descriptive": 0
       },
-      "mean_absolute_channel_difference": 0.005118967245409426
+      "mean_absolute_channel_difference": 0.005767435320132349
     },
     {
       "sample": "rocket",
@@ -96,6 +100,18 @@
         "descriptive": 1
       },
       "mean_absolute_channel_difference": 0.058333065812382234
+    },
+    {
+      "sample": "rocket",
+      "variant": "grade",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 8,
+        "anchors_preserved_interpolation_approximate": 0,
+        "skipped": 0,
+        "descriptive": 0
+      },
+      "mean_absolute_channel_difference": 0.005118967245409426
     }
   ]
 }

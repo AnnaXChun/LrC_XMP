@@ -1,56 +1,98 @@
-# LrC_XMP
+<div align="center">
 
-可重复使用的 Lightroom XMP 调色预设，附参数来源、核对记录和摄影师风格研究。
+# 🎞️ LrC_XMP
 
-当前收录 **2 个预设**：一个按视频最终参数制作的主版，一个仅含颜色分级的早期简版。两份 XMP 均已通过文件检查，**尚未导入 Lightroom，也未验证预设面板显示或照片效果**。
+### 选张照片，一键找到喜欢的色调。
 
-现在可以先看 [Python 试片](docs/Python预览.md)：已选取四张有明确使用许可的照片，生成两份预设共 **8 张近似结果**。打开 [离线对照页](examples/python-preview/index.html) 可切换预设并拖动比较；GitHub 上可直接查看下方总览图。
+把喜欢的调色配方存下来，下次拍照还能接着用。<br>
+启动本地页面，选一张照片，点一次按钮，就能并排比较全部预设。
 
-主版预览应用了 32 项标量调整和 4 条曲线，明确跳过 8 项 RAW／Adobe 专属设置。XMP 原值没有修改，Python 结果不等同于 Lightroom 渲染。
+**本地免费试色 · 无需 Adobe 账号 · 原片保留**
 
-![四个场景的原图、颜色分级近似与主版部分近似对照](examples/python-preview/contact-sheet.png)
+[看全部效果](#先看效果) · [试自己的照片](#一键试自己的照片) · [下载 XMP](#把喜欢的配方带走)
 
-## 下载预设
+</div>
 
-| 文件 | 内容与适用范围 | 状态 |
-| --- | --- | --- |
-| [品川力仿色｜原视频确认值（ProRAW）](presets/confirmed/品川力仿色_原视频确认值_ProRAW.xmp) | 原案例的基础调整、曲线、HSL、颜色分级和校准；面向 RAW／ProRAW | 主版；41 项标量设置、4 条曲线、18 个锚点已核对 |
-| [平川参考｜仅已知颜色分级](presets/partial/平川参考_仅已知颜色分级.xmp) | 仅含最初笔记中的 8 项颜色分级值 | 早期简版；保留原文件名，不代表完整风格 |
+## 先看效果
 
-打开文件页后选择 **Download raw file**，即可下载 `.xmp`。也可从仓库的 **Code → Download ZIP** 下载全部文件。
+喜欢低饱和、柔和亮部的照片？先从这组品川力仿色试起。温室里的绿色收敛了，白瓷杯的反光柔和了，傍晚的蓝色也淡了下来。
 
-主版的 [参数来源](presets/confirmed/品川力仿色_原视频确认值_ProRAW.source.json) 和 [文件核对记录](presets/confirmed/品川力仿色_原视频确认值_ProRAW.verification.json) 一并保留。两份 XMP 的哈希见 [SHA256SUMS](SHA256SUMS)。
+**当前全部 2 份预设，已用于 4 张样片，共 8 张结果。** 主版的变化更明显，仅颜色分级版适合先比较轻一些的变化。
 
-## 主版来自哪里
+> 以下是 Python 近似试色。主版尚未应用 Adobe Color、RAW 白平衡和相机校准，与 Lightroom 的实际效果可能不同。[查看处理范围](docs/Python预览.md#参数到底应用了多少)
 
-参数来自 LeoCarbin摄影发布的 [《百万人想学的色调｜学会就是大师 品川力仿色》](https://www.douyin.com/video/7635868630110035057)。这是该教程的参数复现，不能称为品川力本人发布的预设。
+| 原图 | 品川力仿色 · 主版 | 仅颜色分级 · 简版 |
+| :---: | :---: | :---: |
+| ![咖啡原图](examples/python-preview/coffee-before.png) | ![咖啡主版近似效果](examples/python-preview/coffee-main.png) | ![咖啡颜色分级近似效果](examples/python-preview/coffee-grade.png) |
+| ![温室原图](examples/python-preview/garden-before.png) | ![温室主版近似效果](examples/python-preview/garden-main.png) | ![温室颜色分级近似效果](examples/python-preview/garden-grade.png) |
+| ![傍晚原图](examples/python-preview/rocket-before.png) | ![傍晚主版近似效果](examples/python-preview/rocket-main.png) | ![傍晚颜色分级近似效果](examples/python-preview/rocket-grade.png) |
+| ![人像原图](examples/python-preview/astronaut-before.png) | ![人像主版近似效果](examples/python-preview/astronaut-main.png) | ![人像颜色分级近似效果](examples/python-preview/astronaut-grade.png) |
 
-视频案例使用 iPhone 的 `IMG_2626.DNG`，配置文件从 Apple ProRaw 改为 **Adobe Color**。Adobe Color 是配置文件；笔记中的 Adobe RGB 指向另一种色彩空间概念。主版按视频中的 Adobe Color 保存。
+想放大看细节？[打开对照总图](examples/python-preview/contact-sheet.png)，或下载仓库后打开 [离线对照页](examples/python-preview/index.html)，切换预设、拖动分界线。GitHub 文件页展示的是 HTML 源码，下载后才能操作。
 
-为保留案例最终值，主版包含固定的曝光 **+0.30**、色温 **5903 K**、色调 **+9**。基础面板最后的高光、阴影、白色色阶分别为 **−68、+24、−77**，早先画面出现的数值是中间步骤。主版没有自动适配曝光或白平衡的功能。
+主版会让肤色和橙色衣服一起变灰。喜欢浓郁色彩或希望保留肤色时，建议先对比简版。预设适不适合，放到自己的照片上看最直接。
 
-未指定的调整没有补零或写入默认值，包括锐化、降噪、裁剪、镜头校正和颗粒等。目标照片已有设置仍可能影响结果。普通 iPhone JPEG／HEIC 与本案例的 RAW 处理路径不同，其兼容性和效果尚未验证。
+## 一键试自己的照片
 
-## 安装与验证状态
+本地试色页面已经支持选照片、应用全部预设、并排查看，以及单张或打包下载。也可以直接选内置样张试用。
 
-制作环境没有可用的 Lightroom 或 Lightroom MCP，Adobe 安装已取消。当前交付是可下载的 XMP 文件，尚未安装进 Lightroom 预设目录。
+首次使用，先[下载仓库 ZIP](https://github.com/AnnaXChun/LrC_XMP/archive/refs/heads/main.zip) 并解压，安装 [uv](https://docs.astral.sh/uv/getting-started/installation/)。在解压后的文件夹中打开终端，运行：
 
-以后在具备授权的 Lightroom 中导入主版时，预期名称为「品川力仿色｜原视频确认值（ProRAW）」，分组为「视频调色复现」。需要在测试副本上确认面板可见、应用结果和参数读回，才能把状态改成已实测。
+```bash
+uv run --locked --extra ui streamlit run app.py
+```
 
-| 检查 | 结果 |
+首次启动会下载所需依赖；缺少合适版本的 Python 时，uv 会一并下载。后续沿用本地环境。浏览器打开后：
+
+1. 放入照片，或选一张内置样张。
+2. 点击 **「一键试遍全部 2 个预设」**。
+3. 并排看效果，下载喜欢的版本，或点击 **「打包下载全部结果」**。
+
+页面地址是 `http://127.0.0.1:8501`。照片在本机处理；程序只读取照片副本，结果另行下载。新增预设后，页面会自动纳入，按钮上的数量也会更新。
+
+支持 JPG、PNG、TIFF、WebP 的不透明 RGB／灰度照片，单张最多 25 MB。输出为 PNG，长边最多 1200 像素，适合比较色调。手机 HEIC、RAW／DNG 请先导出为 JPG 再试。
+
+<details>
+<summary>想重新跑一遍全部样片？</summary>
+
+在仓库目录运行下面这条命令，就会把全部 XMP 用于四张样片，生成对照网页、图片和报告：
+
+```bash
+uv run --locked python -m lrc_xmp.demo
+```
+
+结果保存在新的 `local/preview-日期时间/` 目录中。打开其中的 `index.html` 即可比较。总览图需要系统中有中文字体，详见 [Python 预览说明](docs/Python预览.md#重复运行)。
+
+</details>
+
+## 把喜欢的配方带走
+
+XMP 保存了原始参数，可以留作以后在 Lightroom 中复用。打开下方文件页，点击 **Download raw file** 下载。
+
+| 预设 | 里面有什么 |
 | --- | --- |
-| XML／RDF 结构及文件参数读回 | 通过 |
-| 主版参数与逐帧记录对照 | 41 项标量、4 条曲线、18 个锚点一致 |
-| 最初提供的颜色分级数值 | 两版的 8 项均保留 |
-| 预设 UUID | 两版不同 |
-| Lightroom 导入、面板可见、照片应用及参数读回 | 未验证 |
+| [品川力仿色 · 主版](presets/confirmed/品川力仿色_原视频确认值_ProRAW.xmp) | 按原视频最终数值整理，含基础调整、曲线、HSL、颜色分级和校准，面向 RAW／ProRAW |
+| [仅颜色分级 · 简版](presets/partial/平川参考_仅已知颜色分级.xmp) | 保留早期笔记中的 8 项颜色分级参数；文件名沿用「平川参考」 |
 
-## 后续仿色
+主版来自 **LeoCarbin摄影**的[品川力仿色教程](https://www.douyin.com/video/7635868630110035057)，属于教程参数复现。每份预设都附来源和核对记录，原值没有因这些样片而改动。
 
-[摄影师风格调研](docs/摄影师风格调研.md) 收录了川内伦子、Saul Leiter、Alex Webb、Ernst Haas、William Eggleston 和 Todd Hido。文档给出了作品入口、可尝试的调色方向和所需拍摄条件。
+主版保留了案例的固定曝光 **+0.30**、色温 **5903 K**、色调 **+9**，复用时需要结合照片判断。当前已完成 XMP 文件核对，Lightroom 导入、预设面板显示、应用和参数读回尚未实测。完整记录见 [预设来源与验证](docs/预设来源与验证.md)。
 
-后续建议先做「柔光日常」「雨窗街景」「烈日浓色」三个场景，分别参考川内伦子、Saul Leiter 和 Alex Webb。它们目前属于研究候选，仓库中尚无对应 XMP。
+## 下一种色调，一起找
 
-新增文件遵循 [预设制作约定](docs/预设制作约定.md)。公开资料中的原始数值与我们自行试验的仿色参数分别记录，便于以后修订和复用。
+接下来想尝试柔光日常、雨窗街景和烈日浓色。[摄影师风格调研](docs/摄影师风格调研.md) 已整理川内伦子、Saul Leiter、Alex Webb 等 6 位摄影师的作品入口；这些方向目前是研究候选，还没有对应预设。
 
-仓库保存预设、预览工具、自写说明、有许可的对照图片及来源链接。作品及教程的权利归原作者所有；本仓库未获这些摄影师背书。
+欢迎在 [Issues](https://github.com/AnnaXChun/LrC_XMP/issues) 留下喜欢的作品或教程链接，说明想用在哪类照片上。后续仿色会继续附上原图与结果，让每一种风格都有样片可看。
+
+<details>
+<summary>参数、实现与图片来源</summary>
+
+- [预设来源与验证](docs/预设来源与验证.md)：参数依据、固定设置、Lightroom 验证状态。
+- [Python 预览说明](docs/Python预览.md)：近似模型、跳过字段、开源库选择和运行方法。
+- [预设制作约定](docs/预设制作约定.md)：如何保留原值、记录来源和新增风格。
+- [照片与许可](examples/sources.json)：Jovan Vasiljević／Pexels、Rachel Michetti／CC0、NASA 和 SpaceX／来源文档标注公有领域。
+- [SHA256SUMS](SHA256SUMS)：两份 XMP 的文件哈希。
+
+摄影作品、教程和样片遵循各自来源的权利与许可。本项目为独立整理与研究，未获相关摄影师背书。
+
+</details>

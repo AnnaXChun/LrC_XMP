@@ -8,7 +8,7 @@
   "preset": "平川参考_仅已知颜色分级.xmp",
   "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
   "output": "garden-grade.png",
-  "output_sha256": "18ff093bd4022cee98e9df6a4e273f66540dfe74d90d7007be9dbccc301051af",
+  "output_sha256": "328f8c15be75688bc10cc0d393e70685ea8b9644171637b98490fab73158f628",
   "normalization": {
     "input_color_handling": "untagged; assumed sRGB",
     "source_size": [

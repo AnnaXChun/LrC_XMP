@@ -49,34 +49,39 @@ def make_sheet(samples: list[dict], output: Path, custom_font: Path | None,
                variants: list[Variant], filename: str = "contact-sheet.png") -> None:
     labels = {"before": "原图 · sRGB", **{v.key: v.name for v in variants}}
     gutter, cell_w = 24, 472
-    width = 2 * gutter + len(labels) * cell_w + (len(labels) - 1) * 12
+    # Keep the original beside each pair, even as the catalogue grows.
+    groups = [variants[i:i + 2] for i in range(0, len(variants), 2)]
+    columns = min(3, len(labels))
+    width = 2 * gutter + columns * cell_w + (columns - 1) * 12
     heights = []
     for sample in samples:
         with Image.open(output / f"{sample['id']}-before.png") as img:
             heights.append(round(img.height * min(cell_w / img.width, 1)))
     photo_h = min(520, max(heights))
     row_h = photo_h + 74
-    sheet = Image.new("RGB", (width, 184 + len(samples) * row_h + 84), "#f5f3ed")
+    sample_h = 56 + len(groups) * row_h
+    sheet = Image.new("RGB", (width, 124 + len(samples) * sample_h + 84), "#f5f3ed")
     draw = ImageDraw.Draw(sheet)
     draw.text((gutter, 22), "预设试片", font=font(38, custom_font), fill="#202321")
     draw.text((gutter, 78), "全部预设 · Python 近似试色，具体应用与跳过的设置见处理报告。",
               font=font(21, custom_font), fill="#5b5c55")
-    for column, name in enumerate(labels):
-        label_font = font(25, custom_font)
-        while draw.textlength(labels[name], font=label_font) > cell_w and label_font.size > 10:
-            label_font = font(label_font.size - 1, custom_font)
-        draw.text((gutter + column * (cell_w + 12), 129), labels[name],
-                  font=label_font, fill="#202321")
     for row, sample in enumerate(samples):
-        top = 180 + row * row_h
+        top = 124 + row * sample_h
         draw.text((gutter, top), sample["title"] + "  ·  " + sample["purpose"],
                   font=font(21, custom_font), fill="#454942")
-        for column, variant in enumerate(labels):
-            with Image.open(output / f"{sample['id']}-{variant}.png") as img:
-                thumb = ImageOps.contain(img.convert("RGB"), (cell_w, photo_h))
-                x = gutter + column * (cell_w + 12) + (cell_w - thumb.width) // 2
-                y = top + 44 + (photo_h - thumb.height) // 2
-                sheet.paste(thumb, (x, y))
+        for group_index, group in enumerate(groups):
+            group_top = top + 48 + group_index * row_h
+            for column, variant in enumerate(["before", *[v.key for v in group]]):
+                left = gutter + column * (cell_w + 12)
+                label_font = font(25, custom_font)
+                while draw.textlength(labels[variant], font=label_font) > cell_w and label_font.size > 10:
+                    label_font = font(label_font.size - 1, custom_font)
+                draw.text((left, group_top), labels[variant], font=label_font, fill="#202321")
+                with Image.open(output / f"{sample['id']}-{variant}.png") as img:
+                    thumb = ImageOps.contain(img.convert("RGB"), (cell_w, photo_h))
+                    x = left + (cell_w - thumb.width) // 2
+                    y = group_top + 44 + (photo_h - thumb.height) // 2
+                    sheet.paste(thumb, (x, y))
     draw.text((gutter, sheet.height - 64), "来源与许可见同目录 index.html；完整应用记录见每张结果旁的 JSON 文件。",
               font=font(19, custom_font), fill="#5b5c55")
     save_png(sheet, output / filename)

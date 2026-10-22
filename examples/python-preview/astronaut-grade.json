@@ -8,7 +8,7 @@
   "preset": "平川参考_仅已知颜色分级.xmp",
   "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
   "output": "astronaut-grade.png",
-  "output_sha256": "cf5621c0b7c75dfa2db00ee35089858cb1cd3bec4888e51f2018a1d52b6bf25f",
+  "output_sha256": "5603cb97e5a745d5799ae9c122922d4d16a871a2b5b07ccfa64fe17a06cc5361",
   "normalization": {
     "input_color_handling": "embedded ICC converted to sRGB",
     "source_size": [

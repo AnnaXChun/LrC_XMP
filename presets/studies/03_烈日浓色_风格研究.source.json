@@ -1,0 +1,80 @@
+{
+  "source": {
+    "type": "project_authored_style_study",
+    "version": "1.0",
+    "date": "2026-10-22",
+    "reference_series": "Alex Webb《The Suffering of Light》",
+    "reference_urls": [
+      "https://www.magnumphotos.com/arts-culture/alex-webb-the-suffering-of-light/",
+      "https://aperture.org/editorial/how-alex-webb-sees-in-color/"
+    ],
+    "parameter_provenance": "全部参数和曲线锚点由本项目自行设计。资料仅用于定性方向参考，未从摄影师作品测量数值，非摄影师原始或授权配方。"
+  },
+  "intent": "加深阴影并增强色彩，让已有的日照分区和彩色物体更鲜明。",
+  "suitable_scenes": "明暗分区明确的街道、彩色墙面、日照建筑。",
+  "failure_cases": "暗部细节可能减少，橙色衣物与肤色容易偏浓；阴天不会变成烈日现场。",
+  "expected_scalar_settings": {
+    "Highlights2012": "-15",
+    "Shadows2012": "-28",
+    "Whites2012": "6",
+    "Blacks2012": "-22",
+    "Clarity2012": "10",
+    "SaturationAdjustmentRed": "12",
+    "SaturationAdjustmentOrange": "8",
+    "SaturationAdjustmentYellow": "18",
+    "SaturationAdjustmentGreen": "8",
+    "SaturationAdjustmentAqua": "10",
+    "SaturationAdjustmentBlue": "20",
+    "LuminanceAdjustmentRed": "-4",
+    "LuminanceAdjustmentOrange": "3",
+    "LuminanceAdjustmentYellow": "4",
+    "LuminanceAdjustmentBlue": "-12",
+    "HueAdjustmentYellow": "-8",
+    "HueAdjustmentGreen": "-8",
+    "HueAdjustmentBlue": "-5",
+    "SplitToningShadowHue": "220",
+    "SplitToningShadowSaturation": "8",
+    "ColorGradeMidtoneHue": "35",
+    "ColorGradeMidtoneSat": "5",
+    "SplitToningHighlightHue": "48",
+    "SplitToningHighlightSaturation": "8",
+    "ColorGradeBlending": "35",
+    "SplitToningBalance": "15",
+    "ToneCurveName2012": "Custom"
+  },
+  "expected_curves": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        0
+      ],
+      [
+        48,
+        32
+      ],
+      [
+        128,
+        132
+      ],
+      [
+        208,
+        224
+      ],
+      [
+        255,
+        255
+      ]
+    ]
+  },
+  "scope_notes": [
+    "未设置曝光、白平衡、相机配置文件、相机校准、锐化、降噪、裁剪、颗粒或镜头校正；未列出的字段保持缺省。",
+    "为公平比较，Python 从同一张已渲染的 sRGB 副本分别应用每份预设，不叠加其他预设。Lightroom 中已有的未覆盖设置仍可能影响结果。",
+    "四张公共许可样张用于跨场景检查；它们不是对应系列的参考原片，也不能证明摄影师风格复现。"
+  ],
+  "lightroom_runtime_validation": {
+    "imported": false,
+    "visible_in_presets_panel": false,
+    "applied_to_test_photo": false,
+    "parameters_read_back_from_lightroom": false
+  }
+}

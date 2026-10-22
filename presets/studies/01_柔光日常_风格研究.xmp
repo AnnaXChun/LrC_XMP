@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description rdf:about="" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+      crs:PresetType="Normal"
+      crs:UUID="4BCEDB58A75F4B849F2E0A8CE59109F1"
+      crs:SupportsAmount="False"
+      crs:SupportsColor="True"
+      crs:SupportsMonochrome="False"
+      crs:HasSettings="True"
+      crs:Highlights2012="-35"
+      crs:Shadows2012="22"
+      crs:Whites2012="-18"
+      crs:Blacks2012="18"
+      crs:Clarity2012="-12"
+      crs:SaturationAdjustmentRed="-6"
+      crs:SaturationAdjustmentOrange="-8"
+      crs:SaturationAdjustmentYellow="-18"
+      crs:SaturationAdjustmentGreen="-20"
+      crs:SaturationAdjustmentBlue="-10"
+      crs:SaturationAdjustmentMagenta="-8"
+      crs:LuminanceAdjustmentOrange="8"
+      crs:LuminanceAdjustmentYellow="8"
+      crs:LuminanceAdjustmentGreen="10"
+      crs:HueAdjustmentYellow="-6"
+      crs:HueAdjustmentGreen="-8"
+      crs:SplitToningShadowHue="205"
+      crs:SplitToningShadowSaturation="6"
+      crs:ColorGradeMidtoneHue="45"
+      crs:ColorGradeMidtoneSat="4"
+      crs:SplitToningHighlightHue="48"
+      crs:SplitToningHighlightSaturation="7"
+      crs:ColorGradeBlending="60"
+      crs:SplitToningBalance="15"
+      crs:ToneCurveName2012="Custom">
+      <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">柔光日常｜风格研究</rdf:li></rdf:Alt></crs:Name>
+      <crs:Group><rdf:Alt><rdf:li xml:lang="x-default">LrC_XMP｜风格研究</rdf:li></rdf:Alt></crs:Group>
+      <crs:Description><rdf:Alt><rdf:li xml:lang="x-default">抬高中间调与黑场，柔化高光，让植物和日常小物的颜色更轻。本项目试验数值，非摄影师原始配方；Lightroom 效果未实测。</rdf:li></rdf:Alt></crs:Description>
+      <crs:ToneCurvePV2012><rdf:Seq>
+        <rdf:li>0, 10</rdf:li>
+        <rdf:li>64, 72</rdf:li>
+        <rdf:li>128, 144</rdf:li>
+        <rdf:li>192, 205</rdf:li>
+        <rdf:li>255, 249</rdf:li>
+      </rdf:Seq></crs:ToneCurvePV2012>
+    </rdf:Description>
+  </rdf:RDF>
+</x:xmpmeta>

@@ -1,0 +1,78 @@
+{
+  "source": {
+    "type": "project_authored_style_study",
+    "version": "1.0",
+    "date": "2026-10-22",
+    "reference_series": "Todd Hido《House Hunting》",
+    "reference_urls": [
+      "https://www.toddhido.com/househunting",
+      "http://www.toddhido.com/homes"
+    ],
+    "parameter_provenance": "全部参数和曲线锚点由本项目自行设计。资料仅用于定性方向参考，未从摄影师作品测量数值，非摄影师原始或授权配方。"
+  },
+  "intent": "用蓝色暗部与琥珀色亮部拉开冷暖关系，保留已有暖灯的颜色。",
+  "suitable_scenes": "蓝调时刻、已有暖灯的建筑、夜间窗户。",
+  "failure_cases": "白天植物与人像可能偏冷、变暗；不能凭空生成灯光和夜景。",
+  "expected_scalar_settings": {
+    "Highlights2012": "-22",
+    "Shadows2012": "-22",
+    "Whites2012": "-12",
+    "Blacks2012": "-12",
+    "Clarity2012": "6",
+    "HueAdjustmentAqua": "-12",
+    "HueAdjustmentBlue": "-10",
+    "SaturationAdjustmentOrange": "14",
+    "SaturationAdjustmentYellow": "8",
+    "SaturationAdjustmentGreen": "-25",
+    "SaturationAdjustmentAqua": "12",
+    "SaturationAdjustmentBlue": "10",
+    "SaturationAdjustmentPurple": "-15",
+    "LuminanceAdjustmentOrange": "6",
+    "LuminanceAdjustmentYellow": "4",
+    "LuminanceAdjustmentBlue": "-12",
+    "SplitToningShadowHue": "220",
+    "SplitToningShadowSaturation": "26",
+    "ColorGradeMidtoneHue": "210",
+    "ColorGradeMidtoneSat": "10",
+    "SplitToningHighlightHue": "42",
+    "SplitToningHighlightSaturation": "24",
+    "ColorGradeBlending": "30",
+    "SplitToningBalance": "-25",
+    "ToneCurveName2012": "Custom"
+  },
+  "expected_curves": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        3
+      ],
+      [
+        64,
+        48
+      ],
+      [
+        128,
+        111
+      ],
+      [
+        192,
+        185
+      ],
+      [
+        255,
+        244
+      ]
+    ]
+  },
+  "scope_notes": [
+    "未设置曝光、白平衡、相机配置文件、相机校准、锐化、降噪、裁剪、颗粒或镜头校正；未列出的字段保持缺省。",
+    "为公平比较，Python 从同一张已渲染的 sRGB 副本分别应用每份预设，不叠加其他预设。Lightroom 中已有的未覆盖设置仍可能影响结果。",
+    "四张公共许可样张用于跨场景检查；它们不是对应系列的参考原片，也不能证明摄影师风格复现。"
+  ],
+  "lightroom_runtime_validation": {
+    "imported": false,
+    "visible_in_presets_panel": false,
+    "applied_to_test_photo": false,
+    "parameters_read_back_from_lightroom": false
+  }
+}

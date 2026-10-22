@@ -8,7 +8,7 @@
   "preset": "品川力仿色_原视频确认值_ProRAW.xmp",
   "preset_sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35",
   "output": "astronaut-main.png",
-  "output_sha256": "10f1d56c5bbef9ee13d449e9007257de0ae8b375006bc8575a46eec0521231e1",
+  "output_sha256": "6662030c35c51cdcaba0fffc1ab947342ee869962c7506e91af1c60cfa8b889c",
   "normalization": {
     "input_color_handling": "embedded ICC converted to sRGB",
     "source_size": [

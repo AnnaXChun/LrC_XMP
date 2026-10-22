@@ -47,15 +47,15 @@ if stored and stored[0] == source_key:
         st.download_button("打包下载全部结果", outcome["zip"], "LrC_XMP-previews.zip", "application/zip")
     for error in outcome["errors"]:
         st.error(f"{error['name']} 未生成：{error['error']}")
-    columns = st.columns(min(3, len(outcome["results"]) + 1))
-    with columns[0]:
-        st.subheader("原图")
-        st.image(outcome["before"], width="stretch")
-    for index, result in enumerate(outcome["results"], 1):
-        with columns[index % len(columns)]:
-            st.subheader(result["name"])
-            st.image(result["png"], width="stretch")
-            st.download_button("下载这张", result["png"], f"{result['key']}.png", "image/png", key=result["key"])
+    # Use explicit rows so different photo/caption heights cannot mix versions.
+    cards = [{"name": "原图", "png": outcome["before"]}, *outcome["results"]]
+    for start in range(0, len(cards), 3):
+        for column, result in zip(st.columns(3), cards[start:start + 3]):
+            with column:
+                st.subheader(result["name"])
+                st.image(result["png"], width="stretch")
+                if "key" in result:
+                    st.download_button("下载这张", result["png"], f"{result['key']}.png", "image/png", key=result["key"])
     with st.expander("查看处理记录"):
         st.write("所有版本共用同一张原图。文件参数原样读取，每份报告都列出跳过的设置。")
         for result in outcome["results"]:

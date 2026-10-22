@@ -1,0 +1,172 @@
+{
+  "renderer": "lrc-xmp-preview",
+  "renderer_version": "0.1.0",
+  "adobe_equivalent": false,
+  "lightroom_runtime_verified": false,
+  "input": "garden.jpg",
+  "input_sha256": "7cf1b9a94d304b1ca473c6b54d4fd271cf78d1f03a122a6df1a99bcb4a11f636",
+  "preset": "01_柔光日常_风格研究.xmp",
+  "preset_sha256": "077b87f617da6a8655b1785fcb7e1567bb0f5f6a3dd1fe363969e4b89f5da15f",
+  "output": "garden-preset-5078bf2caef0f7d3.png",
+  "output_sha256": "b09605954b6c18505eb1de30a298078e387cd5cec7e77955a977d51b1120c479",
+  "normalization": {
+    "input_color_handling": "untagged; assumed sRGB",
+    "source_size": [
+      1200,
+      1800
+    ],
+    "preview_size": [
+      800,
+      1200
+    ],
+    "exif_orientation_normalized": true,
+    "metadata_removed": true
+  },
+  "coverage": {
+    "counts": {
+      "approximate": 24,
+      "anchors_preserved_interpolation_approximate": 1,
+      "skipped": 0,
+      "descriptive": 1
+    },
+    "fields": {
+      "Highlights2012": {
+        "value": "-35",
+        "status": "approximate"
+      },
+      "Shadows2012": {
+        "value": "22",
+        "status": "approximate"
+      },
+      "Whites2012": {
+        "value": "-18",
+        "status": "approximate"
+      },
+      "Blacks2012": {
+        "value": "18",
+        "status": "approximate"
+      },
+      "Clarity2012": {
+        "value": "-12",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentRed": {
+        "value": "-6",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentOrange": {
+        "value": "-8",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentYellow": {
+        "value": "-18",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentGreen": {
+        "value": "-20",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentBlue": {
+        "value": "-10",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentMagenta": {
+        "value": "-8",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentOrange": {
+        "value": "8",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentYellow": {
+        "value": "8",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentGreen": {
+        "value": "10",
+        "status": "approximate"
+      },
+      "HueAdjustmentYellow": {
+        "value": "-6",
+        "status": "approximate"
+      },
+      "HueAdjustmentGreen": {
+        "value": "-8",
+        "status": "approximate"
+      },
+      "SplitToningShadowHue": {
+        "value": "205",
+        "status": "approximate"
+      },
+      "SplitToningShadowSaturation": {
+        "value": "6",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneHue": {
+        "value": "45",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneSat": {
+        "value": "4",
+        "status": "approximate"
+      },
+      "SplitToningHighlightHue": {
+        "value": "48",
+        "status": "approximate"
+      },
+      "SplitToningHighlightSaturation": {
+        "value": "7",
+        "status": "approximate"
+      },
+      "ColorGradeBlending": {
+        "value": "60",
+        "status": "approximate"
+      },
+      "SplitToningBalance": {
+        "value": "15",
+        "status": "approximate"
+      },
+      "ToneCurveName2012": {
+        "value": "Custom",
+        "status": "descriptive"
+      },
+      "ToneCurvePV2012": {
+        "value": [
+          [
+            0,
+            10
+          ],
+          [
+            64,
+            72
+          ],
+          [
+            128,
+            144
+          ],
+          [
+            192,
+            205
+          ],
+          [
+            255,
+            249
+          ]
+        ],
+        "status": "anchors_preserved_interpolation_approximate"
+      }
+    }
+  },
+  "mean_absolute_channel_difference_0_to_1": 0.06348758070598906,
+  "before_mean_rgb": [
+    0.328437463234958,
+    0.34125788398665596,
+    0.24779706699324963
+  ],
+  "after_mean_rgb": [
+    0.392059010454571,
+    0.40205868400682704,
+    0.31198246509883354
+  ],
+  "source_files_unchanged": true
+}

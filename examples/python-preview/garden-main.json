@@ -8,7 +8,7 @@
   "preset": "品川力仿色_原视频确认值_ProRAW.xmp",
   "preset_sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35",
   "output": "garden-main.png",
-  "output_sha256": "81ceba5c1480543e22cf9f00264b31393c482f316daab6519d323853fa678b99",
+  "output_sha256": "c9fef2178a96130b1bbaee10a190b05c415988b9c3ec20cc0224b5d3676f108a",
   "normalization": {
     "input_color_handling": "untagged; assumed sRGB",
     "source_size": [

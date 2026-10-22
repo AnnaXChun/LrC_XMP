@@ -1,0 +1,80 @@
+{
+  "source": {
+    "type": "project_authored_style_study",
+    "version": "1.0",
+    "date": "2026-10-22",
+    "reference_series": "Saul Leiter《Color》及 Centennial 展览",
+    "reference_urls": [
+      "https://www.saulleiterfoundation.org/color",
+      "https://www.howardgreenberg.com/exhibitions/19-saul-leiter-centennial/"
+    ],
+    "parameter_provenance": "全部参数和曲线锚点由本项目自行设计。资料仅用于定性方向参考，未从摄影师作品测量数值，非摄影师原始或授权配方。"
+  },
+  "intent": "压低中间调，收敛绿蓝颜色，保留红橙色块与暖亮部。",
+  "suitable_scenes": "阴雨街景、橱窗、暖色物体。",
+  "failure_cases": "大面积植物会显得暗淡；滤镜不会生成雨滴、反射或遮挡。",
+  "expected_scalar_settings": {
+    "Highlights2012": "-32",
+    "Shadows2012": "-8",
+    "Whites2012": "-20",
+    "Blacks2012": "10",
+    "Clarity2012": "-8",
+    "SaturationAdjustmentRed": "12",
+    "SaturationAdjustmentOrange": "5",
+    "SaturationAdjustmentYellow": "-28",
+    "SaturationAdjustmentGreen": "-40",
+    "SaturationAdjustmentAqua": "-30",
+    "SaturationAdjustmentBlue": "-24",
+    "SaturationAdjustmentPurple": "-20",
+    "SaturationAdjustmentMagenta": "-18",
+    "HueAdjustmentYellow": "-12",
+    "HueAdjustmentGreen": "-15",
+    "LuminanceAdjustmentRed": "-4",
+    "LuminanceAdjustmentOrange": "3",
+    "LuminanceAdjustmentBlue": "-8",
+    "SplitToningShadowHue": "195",
+    "SplitToningShadowSaturation": "14",
+    "ColorGradeMidtoneHue": "30",
+    "ColorGradeMidtoneSat": "8",
+    "SplitToningHighlightHue": "45",
+    "SplitToningHighlightSaturation": "16",
+    "ColorGradeBlending": "45",
+    "SplitToningBalance": "-10",
+    "ToneCurveName2012": "Custom"
+  },
+  "expected_curves": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        8
+      ],
+      [
+        64,
+        52
+      ],
+      [
+        128,
+        123
+      ],
+      [
+        192,
+        188
+      ],
+      [
+        255,
+        242
+      ]
+    ]
+  },
+  "scope_notes": [
+    "未设置曝光、白平衡、相机配置文件、相机校准、锐化、降噪、裁剪、颗粒或镜头校正；未列出的字段保持缺省。",
+    "为公平比较，Python 从同一张已渲染的 sRGB 副本分别应用每份预设，不叠加其他预设。Lightroom 中已有的未覆盖设置仍可能影响结果。",
+    "四张公共许可样张用于跨场景检查；它们不是对应系列的参考原片，也不能证明摄影师风格复现。"
+  ],
+  "lightroom_runtime_validation": {
+    "imported": false,
+    "visible_in_presets_panel": false,
+    "applied_to_test_photo": false,
+    "parameters_read_back_from_lightroom": false
+  }
+}

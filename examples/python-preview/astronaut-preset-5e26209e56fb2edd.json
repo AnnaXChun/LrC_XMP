@@ -1,0 +1,172 @@
+{
+  "renderer": "lrc-xmp-preview",
+  "renderer_version": "0.1.0",
+  "adobe_equivalent": false,
+  "lightroom_runtime_verified": false,
+  "input": "astronaut.png",
+  "input_sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+  "preset": "04_冷夜暖灯_风格研究.xmp",
+  "preset_sha256": "2be37305b0422fb6553d839098a12d97b3e5bd2b9fc606148e5306bfce0df23c",
+  "output": "astronaut-preset-5e26209e56fb2edd.png",
+  "output_sha256": "82acbfea7b3e4b3b180b47a12d00b5644d4c95f6a6cd385c074342cc61089608",
+  "normalization": {
+    "input_color_handling": "embedded ICC converted to sRGB",
+    "source_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "exif_orientation_normalized": true,
+    "metadata_removed": true
+  },
+  "coverage": {
+    "counts": {
+      "approximate": 24,
+      "anchors_preserved_interpolation_approximate": 1,
+      "skipped": 0,
+      "descriptive": 1
+    },
+    "fields": {
+      "Highlights2012": {
+        "value": "-22",
+        "status": "approximate"
+      },
+      "Shadows2012": {
+        "value": "-22",
+        "status": "approximate"
+      },
+      "Whites2012": {
+        "value": "-12",
+        "status": "approximate"
+      },
+      "Blacks2012": {
+        "value": "-12",
+        "status": "approximate"
+      },
+      "Clarity2012": {
+        "value": "6",
+        "status": "approximate"
+      },
+      "HueAdjustmentAqua": {
+        "value": "-12",
+        "status": "approximate"
+      },
+      "HueAdjustmentBlue": {
+        "value": "-10",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentOrange": {
+        "value": "14",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentYellow": {
+        "value": "8",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentGreen": {
+        "value": "-25",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentAqua": {
+        "value": "12",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentBlue": {
+        "value": "10",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentPurple": {
+        "value": "-15",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentOrange": {
+        "value": "6",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentYellow": {
+        "value": "4",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentBlue": {
+        "value": "-12",
+        "status": "approximate"
+      },
+      "SplitToningShadowHue": {
+        "value": "220",
+        "status": "approximate"
+      },
+      "SplitToningShadowSaturation": {
+        "value": "26",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneHue": {
+        "value": "210",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneSat": {
+        "value": "10",
+        "status": "approximate"
+      },
+      "SplitToningHighlightHue": {
+        "value": "42",
+        "status": "approximate"
+      },
+      "SplitToningHighlightSaturation": {
+        "value": "24",
+        "status": "approximate"
+      },
+      "ColorGradeBlending": {
+        "value": "30",
+        "status": "approximate"
+      },
+      "SplitToningBalance": {
+        "value": "-25",
+        "status": "approximate"
+      },
+      "ToneCurveName2012": {
+        "value": "Custom",
+        "status": "descriptive"
+      },
+      "ToneCurvePV2012": {
+        "value": [
+          [
+            0,
+            3
+          ],
+          [
+            64,
+            48
+          ],
+          [
+            128,
+            111
+          ],
+          [
+            192,
+            185
+          ],
+          [
+            255,
+            244
+          ]
+        ],
+        "status": "anchors_preserved_interpolation_approximate"
+      }
+    }
+  },
+  "mean_absolute_channel_difference_0_to_1": 0.06071183746447895,
+  "before_mean_rgb": [
+    0.5551470289041681,
+    0.41474292231542986,
+    0.3783336265414268
+  ],
+  "after_mean_rgb": [
+    0.4882383320368905,
+    0.35340786662913964,
+    0.33520007292090853
+  ],
+  "source_files_unchanged": true
+}

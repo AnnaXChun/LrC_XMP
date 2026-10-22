@@ -1,0 +1,88 @@
+{
+  "preset_file": "03_烈日浓色_风格研究.xmp",
+  "sha256": "ab75a555c1e4e18ad98398f3b5b94f93afb030bf442cea1096113310b2a007a0",
+  "validation": {
+    "xml_well_formed": true,
+    "rdf_structure_checked": true,
+    "exact_values_read_back_from_file": true,
+    "specified_scalar_count": 27,
+    "curve_count": 1,
+    "curve_point_count": 5,
+    "unexpected_adjustment_count": 0,
+    "lightroom_import_tested": false,
+    "lightroom_panel_visibility_verified": false,
+    "lightroom_photo_application_tested": false,
+    "lightroom_parameter_readback_tested": false
+  },
+  "adjustments_read_back": {
+    "Highlights2012": "-15",
+    "Shadows2012": "-28",
+    "Whites2012": "6",
+    "Blacks2012": "-22",
+    "Clarity2012": "10",
+    "SaturationAdjustmentRed": "12",
+    "SaturationAdjustmentOrange": "8",
+    "SaturationAdjustmentYellow": "18",
+    "SaturationAdjustmentGreen": "8",
+    "SaturationAdjustmentAqua": "10",
+    "SaturationAdjustmentBlue": "20",
+    "LuminanceAdjustmentRed": "-4",
+    "LuminanceAdjustmentOrange": "3",
+    "LuminanceAdjustmentYellow": "4",
+    "LuminanceAdjustmentBlue": "-12",
+    "HueAdjustmentYellow": "-8",
+    "HueAdjustmentGreen": "-8",
+    "HueAdjustmentBlue": "-5",
+    "SplitToningShadowHue": "220",
+    "SplitToningShadowSaturation": "8",
+    "ColorGradeMidtoneHue": "35",
+    "ColorGradeMidtoneSat": "5",
+    "SplitToningHighlightHue": "48",
+    "SplitToningHighlightSaturation": "8",
+    "ColorGradeBlending": "35",
+    "SplitToningBalance": "15",
+    "ToneCurveName2012": "Custom"
+  },
+  "curves_read_back": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        0
+      ],
+      [
+        48,
+        32
+      ],
+      [
+        128,
+        132
+      ],
+      [
+        208,
+        224
+      ],
+      [
+        255,
+        255
+      ]
+    ]
+  },
+  "preset_metadata_read_back": {
+    "PresetType": "Normal",
+    "UUID": "E152A1D2D23A46B9B4C31E30F158D35A",
+    "SupportsAmount": "False",
+    "SupportsColor": "True",
+    "SupportsMonochrome": "False",
+    "HasSettings": "True",
+    "Name": "烈日浓色｜风格研究",
+    "Group": "LrC_XMP｜风格研究",
+    "Description": "加深阴影并增强色彩，让已有的日照分区和彩色物体更鲜明。本项目试验数值，非摄影师原始配方；Lightroom 效果未实测。"
+  },
+  "python_coverage": {
+    "approximate": 26,
+    "anchors_preserved_interpolation_approximate": 1,
+    "skipped": 0,
+    "descriptive": 1
+  },
+  "scope": "项目自制风格研究；参数与设计记录一致，不表示复现了摄影师作品或 Lightroom 渲染。"
+}

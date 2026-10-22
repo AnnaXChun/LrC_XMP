@@ -8,7 +8,7 @@
   "preset": "品川力仿色_原视频确认值_ProRAW.xmp",
   "preset_sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35",
   "output": "rocket-main.png",
-  "output_sha256": "4e98589e964fc8f9ee26de8e5751a446cab25598047c06cb0b840d599741bb04",
+  "output_sha256": "655c3fe75ea3a23d4bcc5bbb96d0e44b3e575be3140e90a96a296b52e67e79fc",
   "normalization": {
     "input_color_handling": "embedded ICC converted to sRGB",
     "source_size": [

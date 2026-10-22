@@ -8,7 +8,7 @@
   "preset": "平川参考_仅已知颜色分级.xmp",
   "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
   "output": "rocket-grade.png",
-  "output_sha256": "3a5063457c7cf3c44709aa2ea9fb28d5ff3dc608e5f71a7e380d887d934d3675",
+  "output_sha256": "ad65af13b6d6dd92bb7eea311eb3af33031e070f331d74d60f01130f6e823c91",
   "normalization": {
     "input_color_handling": "embedded ICC converted to sRGB",
     "source_size": [

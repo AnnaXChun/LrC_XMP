@@ -8,7 +8,7 @@
   "preset": "品川力仿色_原视频确认值_ProRAW.xmp",
   "preset_sha256": "49f4c726639e13ad1870df8a3ddc4781529018d9bd563eae0d3e3dbfd1d31e35",
   "output": "coffee-main.png",
-  "output_sha256": "6dd60153e4d35f9df30efe0f9420491ba67051f1233e675596c2ec68e80fa33c",
+  "output_sha256": "3cf27d1b747beca1b20ef2c0327a39e6da988e9f779dfcfc6a82e777b137d095",
   "normalization": {
     "input_color_handling": "untagged; assumed sRGB",
     "source_size": [

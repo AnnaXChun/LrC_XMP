@@ -1,0 +1,78 @@
+{
+  "source": {
+    "type": "project_authored_style_study",
+    "version": "1.0",
+    "date": "2026-10-22",
+    "reference_series": "川内伦子《Illuminance》",
+    "reference_urls": [
+      "https://rinkokawauchi.com/en/works/194/",
+      "https://new.artsmia.org/press/new-pictures-9-rinko-kawauchi-illuminance"
+    ],
+    "parameter_provenance": "全部参数和曲线锚点由本项目自行设计。资料仅用于定性方向参考，未从摄影师作品测量数值，非摄影师原始或授权配方。"
+  },
+  "intent": "抬高中间调与黑场，柔化高光，让植物和日常小物的颜色更轻。",
+  "suitable_scenes": "窗边柔光、植物、浅色小物。",
+  "failure_cases": "暗背景容易发灰；本身过曝的照片不能恢复细节。",
+  "expected_scalar_settings": {
+    "Highlights2012": "-35",
+    "Shadows2012": "22",
+    "Whites2012": "-18",
+    "Blacks2012": "18",
+    "Clarity2012": "-12",
+    "SaturationAdjustmentRed": "-6",
+    "SaturationAdjustmentOrange": "-8",
+    "SaturationAdjustmentYellow": "-18",
+    "SaturationAdjustmentGreen": "-20",
+    "SaturationAdjustmentBlue": "-10",
+    "SaturationAdjustmentMagenta": "-8",
+    "LuminanceAdjustmentOrange": "8",
+    "LuminanceAdjustmentYellow": "8",
+    "LuminanceAdjustmentGreen": "10",
+    "HueAdjustmentYellow": "-6",
+    "HueAdjustmentGreen": "-8",
+    "SplitToningShadowHue": "205",
+    "SplitToningShadowSaturation": "6",
+    "ColorGradeMidtoneHue": "45",
+    "ColorGradeMidtoneSat": "4",
+    "SplitToningHighlightHue": "48",
+    "SplitToningHighlightSaturation": "7",
+    "ColorGradeBlending": "60",
+    "SplitToningBalance": "15",
+    "ToneCurveName2012": "Custom"
+  },
+  "expected_curves": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        10
+      ],
+      [
+        64,
+        72
+      ],
+      [
+        128,
+        144
+      ],
+      [
+        192,
+        205
+      ],
+      [
+        255,
+        249
+      ]
+    ]
+  },
+  "scope_notes": [
+    "未设置曝光、白平衡、相机配置文件、相机校准、锐化、降噪、裁剪、颗粒或镜头校正；未列出的字段保持缺省。",
+    "为公平比较，Python 从同一张已渲染的 sRGB 副本分别应用每份预设，不叠加其他预设。Lightroom 中已有的未覆盖设置仍可能影响结果。",
+    "四张公共许可样张用于跨场景检查；它们不是对应系列的参考原片，也不能证明摄影师风格复现。"
+  ],
+  "lightroom_runtime_validation": {
+    "imported": false,
+    "visible_in_presets_panel": false,
+    "applied_to_test_photo": false,
+    "parameters_read_back_from_lightroom": false
+  }
+}

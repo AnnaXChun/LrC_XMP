@@ -25,26 +25,43 @@
 
 前置要求、配置、失败处理和交付清单都在 [Agent 使用说明](AGENTS.md) 中。拿到文件后，可以直接看对照，再决定保留哪种色调。
 
-先看现成效果？[下载样张与预设包](https://github.com/AnnaXChun/LrC_XMP/releases/tag/demo-2026-10-22)，完整解压后打开 `index.html`，即可离线比较。包内附全部调色图片、XMP、处理报告和校验清单。
+先看现成效果？[下载 6 款预设与完整试色包](https://github.com/AnnaXChun/LrC_XMP/releases/tag/styles-2026-10-22)，完整解压后打开 `index.html`，即可离线比较。包内附 24 张调色图片、全部 XMP、处理报告和校验清单。
 
 ## 先看效果
 
-喜欢低饱和、柔和亮部的照片？先从这组品川力仿色试起。温室里的绿色收敛了，白瓷杯的反光柔和了，傍晚的蓝色也淡了下来。
+同一张照片，想要轻柔、浓郁，还是冷暖分明？点一次，就能把不同色调放到眼前比较。
 
-**当前全部 2 份预设，已用于 4 张样片，共 8 张结果。** 主版的变化更明显，仅颜色分级版适合先比较轻一些的变化。
+**现有 6 份预设，已用于同一批 4 张样片，共 24 张结果。** 在原有主版和简版之外，新增柔光日常、雨窗暖色、烈日浓色、冷夜暖灯 4 款风格研究。
 
 > 以下是 Python 近似试色。主版尚未应用 Adobe Color、RAW 白平衡和相机校准，与 Lightroom 的实际效果可能不同。[查看处理范围](docs/Python预览.md#参数到底应用了多少)
 
-| 原图 | 品川力仿色 · 主版 | 仅颜色分级 · 简版 |
-| :---: | :---: | :---: |
-| ![咖啡原图](examples/python-preview/coffee-before.png) | ![咖啡主版近似效果](examples/python-preview/coffee-main.png) | ![咖啡颜色分级近似效果](examples/python-preview/coffee-grade.png) |
-| ![温室原图](examples/python-preview/garden-before.png) | ![温室主版近似效果](examples/python-preview/garden-main.png) | ![温室颜色分级近似效果](examples/python-preview/garden-grade.png) |
-| ![傍晚原图](examples/python-preview/rocket-before.png) | ![傍晚主版近似效果](examples/python-preview/rocket-main.png) | ![傍晚颜色分级近似效果](examples/python-preview/rocket-grade.png) |
-| ![人像原图](examples/python-preview/astronaut-before.png) | ![人像主版近似效果](examples/python-preview/astronaut-main.png) | ![人像颜色分级近似效果](examples/python-preview/astronaut-grade.png) |
+下面这杯咖啡套用了全部 6 款。每行左侧都是同一张原图，可以直接比较杯壁、桌面和阴影的变化。
+
+![同一杯咖啡的原图与全部六款预设对照](examples/python-preview/coffee-comparison.png)
+
+| 想要的变化 | 可以先试 | 样张里看到的效果 |
+| --- | --- | --- |
+| 灰一些、柔一些 | 品川力仿色 · 主版 | 绿色收敛，白瓷杯反光柔和，肤色也会变灰 |
+| 保留原来的明暗 | 仅颜色分级 · 简版 | 整体变化较轻，方便与原片比较 |
+| 明亮柔和 | 柔光日常 · 风格研究 | 温室中间调变亮，咖啡桌面更轻，暗背景也会抬起 |
+| 暖色更突出 | 雨窗暖色 · 风格研究 | 红橙色保留，绿蓝色收敛，整体更暗 |
+| 浓色与深影 | 烈日浓色 · 风格研究 | 植物和橙色衣物更浓，阴影更深 |
+| 蓝色环境配暖灯 | 冷夜暖灯 · 风格研究 | 傍晚天空更深蓝，灯光保持暖色；白天照片也会偏冷 |
+
+<details>
+<summary>展开温室、人像、傍晚的全部对照</summary>
+
+![温室与全部六款预设对照](examples/python-preview/garden-comparison.png)
+
+![人像与全部六款预设对照](examples/python-preview/astronaut-comparison.png)
+
+![傍晚与全部六款预设对照](examples/python-preview/rocket-comparison.png)
+
+</details>
 
 想放大看细节？[打开对照总图](examples/python-preview/contact-sheet.png)，或下载仓库后打开 [离线对照页](examples/python-preview/index.html)，切换预设、拖动分界线。GitHub 文件页展示的是 HTML 源码，下载后才能操作。
 
-主版会让肤色和橙色衣服一起变灰。喜欢浓郁色彩或希望保留肤色时，建议先对比简版。预设适不适合，放到自己的照片上看最直接。
+喜欢温室和日常小物，可以从柔光日常开始；想保留傍晚灯光的气氛，可以先看冷夜暖灯。人像请同时比较简版与柔光日常，烈日浓色会明显增强橙色衣服和肤色。每款的适用场景与不适合的例子见[风格研究试色记录](docs/风格研究试色记录.md)。
 
 ## 一键试自己的照片
 
@@ -59,7 +76,7 @@ uv run --locked --extra ui streamlit run app.py
 首次启动会下载所需依赖；缺少合适版本的 Python 时，uv 会一并下载。后续沿用本地环境。浏览器打开后：
 
 1. 放入照片，或选一张内置样张。
-2. 点击 **「一键试遍全部 2 个预设」**。
+2. 点击 **「一键试遍全部 6 个预设」**。
 3. 并排看效果，下载喜欢的版本，或点击 **「打包下载全部结果」**。
 
 页面地址是 `http://127.0.0.1:8501`。照片在本机处理；程序只读取照片副本，结果另行下载。新增预设后，页面会自动纳入，按钮上的数量也会更新。
@@ -81,20 +98,26 @@ uv run --locked python -m lrc_xmp.demo
 
 ## 把喜欢的配方带走
 
-XMP 保存了原始参数，可以留作以后在 Lightroom 中复用。打开下方文件页，点击 **Download raw file** 下载。
+XMP 保存了每款的参数，可以留作以后在 Lightroom 中复用。打开下方文件页，点击 **Download raw file** 下载；完整下载包也已包含全部预设。
 
 | 预设 | 里面有什么 |
 | --- | --- |
 | [品川力仿色 · 主版](presets/confirmed/品川力仿色_原视频确认值_ProRAW.xmp) | 按原视频最终数值整理，含基础调整、曲线、HSL、颜色分级和校准，面向 RAW／ProRAW |
 | [仅颜色分级 · 简版](presets/partial/平川参考_仅已知颜色分级.xmp) | 保留早期笔记中的 8 项颜色分级参数；文件名沿用「平川参考」 |
+| [柔光日常 · 风格研究](presets/studies/01_柔光日常_风格研究.xmp) | 明亮中间调、柔和高光，适合先试植物与小物 |
+| [雨窗暖色 · 风格研究](presets/studies/02_雨窗暖色_风格研究.xmp) | 收敛绿蓝色，保留红橙色块，适合已有暖色物体的场景 |
+| [烈日浓色 · 风格研究](presets/studies/03_烈日浓色_风格研究.xmp) | 更浓的色彩与更深的阴影，适合本身有日照分区的照片 |
+| [冷夜暖灯 · 风格研究](presets/studies/04_冷夜暖灯_风格研究.xmp) | 蓝色暗部与琥珀色亮部，适合已有暖灯的傍晚建筑 |
 
 主版来自 **LeoCarbin摄影**的[品川力仿色教程](https://www.douyin.com/video/7635868630110035057)，属于教程参数复现。每份预设都附来源和核对记录，原值没有因这些样片而改动。
+
+4 款风格研究的参数由本项目自行设计，作品资料提供方向参考，未使用摄影师原始配方。新款均不固定曝光、白平衡或相机配置文件。导入后预期归入「LrC_XMP｜风格研究」分组；面板显示仍待 Lightroom 实测。
 
 主版保留了案例的固定曝光 **+0.30**、色温 **5903 K**、色调 **+9**，复用时需要结合照片判断。当前已完成 XMP 文件核对，Lightroom 导入、预设面板显示、应用和参数读回尚未实测。完整记录见 [预设来源与验证](docs/预设来源与验证.md)。
 
 ## 下一种色调，一起找
 
-接下来想尝试柔光日常、雨窗街景和烈日浓色。[摄影师风格调研](docs/摄影师风格调研.md) 已整理川内伦子、Saul Leiter、Alex Webb 等 6 位摄影师的作品入口；这些方向目前是研究候选，还没有对应预设。
+首批 4 款已可试用，方向分别参考川内伦子、Saul Leiter、Alex Webb 和 Todd Hido 的具体系列。[摄影师风格调研](docs/摄影师风格调研.md) 还保留了 Ernst Haas、William Eggleston 的研究入口，后续可继续尝试城市彩色与日常浓色。
 
 欢迎在 [Issues](https://github.com/AnnaXChun/LrC_XMP/issues) 留下喜欢的作品或教程链接，说明想用在哪类照片上。后续仿色会继续附上原图与结果，让每一种风格都有样片可看。
 
@@ -105,7 +128,7 @@ XMP 保存了原始参数，可以留作以后在 Lightroom 中复用。打开�
 - [Python 预览说明](docs/Python预览.md)：近似模型、跳过字段、开源库选择和运行方法。
 - [预设制作约定](docs/预设制作约定.md)：如何保留原值、记录来源和新增风格。
 - [照片与许可](examples/sources.json)：Jovan Vasiljević／Pexels、Rachel Michetti／CC0、NASA 和 SpaceX／来源文档标注公有领域。
-- [SHA256SUMS](SHA256SUMS)：两份 XMP 的文件哈希。
+- [SHA256SUMS](SHA256SUMS)：全部 6 份 XMP 的文件哈希。
 
 摄影作品、教程和样片遵循各自来源的权利与许可。本项目为独立整理与研究，未获相关摄影师背书。
 

@@ -1,6 +1,6 @@
 # Python 预览
 
-已经用现有两份 XMP 对四张测试照片生成了 **8 张调色结果**。可以打开 [离线对照页](../examples/python-preview/index.html)，切换预设并拖动分界线；GitHub 上可直接查看 [总览图](../examples/python-preview/contact-sheet.png)。
+已经用全部 6 份 XMP 对同一批四张测试照片生成了 **24 张调色结果**。可以打开 [离线对照页](../examples/python-preview/index.html)，切换预设并拖动分界线；GitHub 上可直接查看 [总览图](../examples/python-preview/contact-sheet.png)。
 
 这次运行完全在本地完成，使用 Pillow、NumPy 和 SciPy，不需要 Adobe 授权。它是明确列出缺项的近似预览工具，尚未获得与 Lightroom 一致的渲染结果。
 
@@ -14,6 +14,8 @@
 | 傍晚发射台 | 蓝色天空变得更灰，暖灯仍保留，画面对比变柔 |
 
 仅颜色分级版的变化比主版轻。以上是对生成图的观察，没有根据效果反过来修改 XMP。原照片已经经过各自来源的渲染，也不是教程里的 iPhone ProRAW 原片。
+
+新增的柔光日常、雨窗暖色、烈日浓色和冷夜暖灯采用项目自制参数。[风格研究试色记录](风格研究试色记录.md) 列出四款在全部场景中的表现，包括暗背景发灰、浓色人像偏重和冷色影响白天照片等情况。
 
 ## 开源工具怎么选
 
@@ -38,6 +40,15 @@ PhotoS 检查固定在提交 `a7ced720fa876a3a45bf60425f6dbbddf9f1a92c`。其 [X
 | 描述性字段 | `ToneCurveName2012=Custom` | 无 | 仅说明曲线类型，不额外改动像素 |
 
 未应用的 8 项为：`CameraProfile`、`WhiteBalance`、`Temperature`、`Tint`、`ShadowTint`、`RedHue`、`GreenHue`、`BlueHue`。前四项依赖 RAW 白平衡及相机配置；后四项属于 Adobe 相机校准。预览器没有为它们猜一组替代数值。
+
+4 款新研究预设的覆盖如下。每条曲线有 5 个项目自定锚点，另有 `ToneCurveName2012=Custom` 描述性字段。它们没有包含 RAW 专属设置，因而没有跳过字段；全部调整依然采用同一套 Python 近似模型。
+
+| 研究预设 | 近似标量 | 曲线 | 跳过字段 |
+| --- | --- | --- | --- |
+| 柔光日常 | 24 项 | 1 条 | 0 项 |
+| 雨窗暖色 | 26 项 | 1 条 | 0 项 |
+| 烈日浓色 | 26 项 | 1 条 | 0 项 |
+| 冷夜暖灯 | 24 项 | 1 条 | 0 项 |
 
 所有未知字段同样进入跳过清单。存在跳过字段时，命令默认停止；只有显式指定 `--allow-partial` 才输出部分预览。模型内部对未给定控制使用中性起点，原 XMP 不补默认值。
 
@@ -103,7 +114,7 @@ uv run python -m lrc_xmp.demo --output local/preview-repeat
 
 运行完整测试：`uv run --locked --extra ui pytest -q`。AppTest 属于框架测试，未进行真实浏览器的上传、点击与下载实测。
 
-四张照片的两份预设均已实际运行，输出和参数报告一一对应；输入照片及 XMP 的哈希保持不变。总览图已逐张查看。图片与离线页面的结果不构成 Lightroom 导入、面板显示或参数读回验证。
+四张照片的全部 6 份预设均已实际运行，24 份输出和参数报告一一对应；输入照片及 XMP 的哈希保持不变。四张独立对照图已逐张查看。图片与离线页面的结果不构成 Lightroom 导入、面板显示或参数读回验证。
 
 ## 照片与许可
 

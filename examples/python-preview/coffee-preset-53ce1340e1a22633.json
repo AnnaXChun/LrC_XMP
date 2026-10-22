@@ -1,0 +1,180 @@
+{
+  "renderer": "lrc-xmp-preview",
+  "renderer_version": "0.1.0",
+  "adobe_equivalent": false,
+  "lightroom_runtime_verified": false,
+  "input": "coffee.png",
+  "input_sha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+  "preset": "02_雨窗暖色_风格研究.xmp",
+  "preset_sha256": "109e99d9f2bd633a8d84b317f8330945cac6c76906a9661f51bf73da034e8da5",
+  "output": "coffee-preset-53ce1340e1a22633.png",
+  "output_sha256": "9d56f681a92851fa1a8af32d7c54b829b8a089bf2cb4d27e837b9ff76abe7f86",
+  "normalization": {
+    "input_color_handling": "untagged; assumed sRGB",
+    "source_size": [
+      600,
+      400
+    ],
+    "preview_size": [
+      600,
+      400
+    ],
+    "exif_orientation_normalized": true,
+    "metadata_removed": true
+  },
+  "coverage": {
+    "counts": {
+      "approximate": 26,
+      "anchors_preserved_interpolation_approximate": 1,
+      "skipped": 0,
+      "descriptive": 1
+    },
+    "fields": {
+      "Highlights2012": {
+        "value": "-32",
+        "status": "approximate"
+      },
+      "Shadows2012": {
+        "value": "-8",
+        "status": "approximate"
+      },
+      "Whites2012": {
+        "value": "-20",
+        "status": "approximate"
+      },
+      "Blacks2012": {
+        "value": "10",
+        "status": "approximate"
+      },
+      "Clarity2012": {
+        "value": "-8",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentRed": {
+        "value": "12",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentOrange": {
+        "value": "5",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentYellow": {
+        "value": "-28",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentGreen": {
+        "value": "-40",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentAqua": {
+        "value": "-30",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentBlue": {
+        "value": "-24",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentPurple": {
+        "value": "-20",
+        "status": "approximate"
+      },
+      "SaturationAdjustmentMagenta": {
+        "value": "-18",
+        "status": "approximate"
+      },
+      "HueAdjustmentYellow": {
+        "value": "-12",
+        "status": "approximate"
+      },
+      "HueAdjustmentGreen": {
+        "value": "-15",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentRed": {
+        "value": "-4",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentOrange": {
+        "value": "3",
+        "status": "approximate"
+      },
+      "LuminanceAdjustmentBlue": {
+        "value": "-8",
+        "status": "approximate"
+      },
+      "SplitToningShadowHue": {
+        "value": "195",
+        "status": "approximate"
+      },
+      "SplitToningShadowSaturation": {
+        "value": "14",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneHue": {
+        "value": "30",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneSat": {
+        "value": "8",
+        "status": "approximate"
+      },
+      "SplitToningHighlightHue": {
+        "value": "45",
+        "status": "approximate"
+      },
+      "SplitToningHighlightSaturation": {
+        "value": "16",
+        "status": "approximate"
+      },
+      "ColorGradeBlending": {
+        "value": "45",
+        "status": "approximate"
+      },
+      "SplitToningBalance": {
+        "value": "-10",
+        "status": "approximate"
+      },
+      "ToneCurveName2012": {
+        "value": "Custom",
+        "status": "descriptive"
+      },
+      "ToneCurvePV2012": {
+        "value": [
+          [
+            0,
+            8
+          ],
+          [
+            64,
+            52
+          ],
+          [
+            128,
+            123
+          ],
+          [
+            192,
+            188
+          ],
+          [
+            255,
+            242
+          ]
+        ],
+        "status": "anchors_preserved_interpolation_approximate"
+      }
+    }
+  },
+  "mean_absolute_channel_difference_0_to_1": 0.042159667153856654,
+  "before_mean_rgb": [
+    0.6218395588235773,
+    0.3364471568626294,
+    0.20190098039224044
+  ],
+  "after_mean_rgb": [
+    0.59414852092864,
+    0.29772349867334286,
+    0.15752138553159498
+  ],
+  "source_files_unchanged": true
+}

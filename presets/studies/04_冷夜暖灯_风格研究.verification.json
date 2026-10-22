@@ -1,0 +1,86 @@
+{
+  "preset_file": "04_冷夜暖灯_风格研究.xmp",
+  "sha256": "2be37305b0422fb6553d839098a12d97b3e5bd2b9fc606148e5306bfce0df23c",
+  "validation": {
+    "xml_well_formed": true,
+    "rdf_structure_checked": true,
+    "exact_values_read_back_from_file": true,
+    "specified_scalar_count": 25,
+    "curve_count": 1,
+    "curve_point_count": 5,
+    "unexpected_adjustment_count": 0,
+    "lightroom_import_tested": false,
+    "lightroom_panel_visibility_verified": false,
+    "lightroom_photo_application_tested": false,
+    "lightroom_parameter_readback_tested": false
+  },
+  "adjustments_read_back": {
+    "Highlights2012": "-22",
+    "Shadows2012": "-22",
+    "Whites2012": "-12",
+    "Blacks2012": "-12",
+    "Clarity2012": "6",
+    "HueAdjustmentAqua": "-12",
+    "HueAdjustmentBlue": "-10",
+    "SaturationAdjustmentOrange": "14",
+    "SaturationAdjustmentYellow": "8",
+    "SaturationAdjustmentGreen": "-25",
+    "SaturationAdjustmentAqua": "12",
+    "SaturationAdjustmentBlue": "10",
+    "SaturationAdjustmentPurple": "-15",
+    "LuminanceAdjustmentOrange": "6",
+    "LuminanceAdjustmentYellow": "4",
+    "LuminanceAdjustmentBlue": "-12",
+    "SplitToningShadowHue": "220",
+    "SplitToningShadowSaturation": "26",
+    "ColorGradeMidtoneHue": "210",
+    "ColorGradeMidtoneSat": "10",
+    "SplitToningHighlightHue": "42",
+    "SplitToningHighlightSaturation": "24",
+    "ColorGradeBlending": "30",
+    "SplitToningBalance": "-25",
+    "ToneCurveName2012": "Custom"
+  },
+  "curves_read_back": {
+    "ToneCurvePV2012": [
+      [
+        0,
+        3
+      ],
+      [
+        64,
+        48
+      ],
+      [
+        128,
+        111
+      ],
+      [
+        192,
+        185
+      ],
+      [
+        255,
+        244
+      ]
+    ]
+  },
+  "preset_metadata_read_back": {
+    "PresetType": "Normal",
+    "UUID": "9E7F3CA9C17C4D578828B03DEDE529F6",
+    "SupportsAmount": "False",
+    "SupportsColor": "True",
+    "SupportsMonochrome": "False",
+    "HasSettings": "True",
+    "Name": "冷夜暖灯｜风格研究",
+    "Group": "LrC_XMP｜风格研究",
+    "Description": "用蓝色暗部与琥珀色亮部拉开冷暖关系，保留已有暖灯的颜色。本项目试验数值，非摄影师原始配方；Lightroom 效果未实测。"
+  },
+  "python_coverage": {
+    "approximate": 24,
+    "anchors_preserved_interpolation_approximate": 1,
+    "skipped": 0,
+    "descriptive": 1
+  },
+  "scope": "项目自制风格研究；参数与设计记录一致，不表示复现了摄影师作品或 Lightroom 渲染。"
+}

@@ -10,3 +10,7 @@ local/
 *.lrcat
 *.lrcat-data
 *.lrdata/
+.venv/
+.pytest_cache/
+.codebase-memory/
+*.egg-info/

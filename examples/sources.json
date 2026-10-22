@@ -1,0 +1,54 @@
+[
+  {
+    "id": "garden",
+    "title": "温室植物",
+    "filename": "garden.jpg",
+    "download_url": "https://images.pexels.com/photos/21630788/pexels-photo-21630788.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "source_url": "https://www.pexels.com/photo/green-plants-in-botanical-garden-21630788/",
+    "author": "Jovan Vasiljević",
+    "license": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "sha256": "7cf1b9a94d304b1ca473c6b54d4fd271cf78d1f03a122a6df1a99bcb4a11f636",
+    "purpose": "检查绿色、白墙与深阴影",
+    "source_processing": "Pexels 提供的 1200 像素宽 sRGB JPEG，已渲染素材"
+  },
+  {
+    "id": "coffee",
+    "title": "咖啡与白瓷杯",
+    "filename": "coffee.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/coffee.png",
+    "source_url": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.coffee",
+    "author": "Rachel Michetti；场地 Pikolo Espresso Bar",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+    "purpose": "检查红橙色、白色物体与反光",
+    "source_processing": "scikit-image 提供的已渲染 PNG"
+  },
+  {
+    "id": "astronaut",
+    "title": "人像与橙色衣服",
+    "filename": "astronaut.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/astronaut.png",
+    "source_url": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.astronaut",
+    "author": "NASA，Eileen Collins 肖像；由 scikit-image 提供",
+    "license": "Public domain（来源文档标注）",
+    "license_url": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.astronaut",
+    "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+    "purpose": "检查肤色与高光脸部",
+    "source_processing": "scikit-image 提供的已渲染 PNG"
+  },
+  {
+    "id": "rocket",
+    "title": "傍晚发射台",
+    "filename": "rocket.jpg",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/rocket.jpg",
+    "source_url": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.rocket",
+    "author": "SpaceX",
+    "license": "Public domain（来源文档标注）",
+    "license_url": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.rocket",
+    "sha256": "c2dd0de7c538df8d111e479619b129464d0269d0ae5fd18ca91d33a7fdfea95c",
+    "purpose": "检查蓝色天空、暖灯与暗部",
+    "source_processing": "scikit-image 提供的已渲染 JPEG"
+  }
+]

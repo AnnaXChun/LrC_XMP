@@ -1,0 +1,101 @@
+{
+  "adobe_equivalent": false,
+  "renders": [
+    {
+      "sample": "garden",
+      "variant": "grade",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 8,
+        "anchors_preserved_interpolation_approximate": 0,
+        "skipped": 0,
+        "descriptive": 0
+      },
+      "mean_absolute_channel_difference": 0.0065698825517863674
+    },
+    {
+      "sample": "garden",
+      "variant": "main",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 32,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 8,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.053588901744587726
+    },
+    {
+      "sample": "coffee",
+      "variant": "grade",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 8,
+        "anchors_preserved_interpolation_approximate": 0,
+        "skipped": 0,
+        "descriptive": 0
+      },
+      "mean_absolute_channel_difference": 0.0058826188383136946
+    },
+    {
+      "sample": "coffee",
+      "variant": "main",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 32,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 8,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.07081291189521959
+    },
+    {
+      "sample": "astronaut",
+      "variant": "grade",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 8,
+        "anchors_preserved_interpolation_approximate": 0,
+        "skipped": 0,
+        "descriptive": 0
+      },
+      "mean_absolute_channel_difference": 0.005767435320132349
+    },
+    {
+      "sample": "astronaut",
+      "variant": "main",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 32,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 8,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.06852744517390987
+    },
+    {
+      "sample": "rocket",
+      "variant": "grade",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 8,
+        "anchors_preserved_interpolation_approximate": 0,
+        "skipped": 0,
+        "descriptive": 0
+      },
+      "mean_absolute_channel_difference": 0.005118967245409426
+    },
+    {
+      "sample": "rocket",
+      "variant": "main",
+      "source_unchanged": true,
+      "coverage": {
+        "approximate": 32,
+        "anchors_preserved_interpolation_approximate": 4,
+        "skipped": 8,
+        "descriptive": 1
+      },
+      "mean_absolute_channel_difference": 0.058333065812382234
+    }
+  ]
+}

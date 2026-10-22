@@ -1,0 +1,79 @@
+{
+  "renderer": "lrc-xmp-preview",
+  "renderer_version": "0.1.0",
+  "adobe_equivalent": false,
+  "lightroom_runtime_verified": false,
+  "input": "garden.jpg",
+  "input_sha256": "7cf1b9a94d304b1ca473c6b54d4fd271cf78d1f03a122a6df1a99bcb4a11f636",
+  "preset": "平川参考_仅已知颜色分级.xmp",
+  "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
+  "output": "garden-grade.png",
+  "output_sha256": "18ff093bd4022cee98e9df6a4e273f66540dfe74d90d7007be9dbccc301051af",
+  "normalization": {
+    "input_color_handling": "untagged; assumed sRGB",
+    "source_size": [
+      1200,
+      1800
+    ],
+    "preview_size": [
+      800,
+      1200
+    ],
+    "exif_orientation_normalized": true,
+    "metadata_removed": true
+  },
+  "coverage": {
+    "counts": {
+      "approximate": 8,
+      "anchors_preserved_interpolation_approximate": 0,
+      "skipped": 0,
+      "descriptive": 0
+    },
+    "fields": {
+      "SplitToningShadowHue": {
+        "value": "156",
+        "status": "approximate"
+      },
+      "SplitToningShadowSaturation": {
+        "value": "40",
+        "status": "approximate"
+      },
+      "SplitToningHighlightHue": {
+        "value": "100",
+        "status": "approximate"
+      },
+      "SplitToningHighlightSaturation": {
+        "value": "7",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneHue": {
+        "value": "335",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneSat": {
+        "value": "32",
+        "status": "approximate"
+      },
+      "ColorGradeBlending": {
+        "value": "100",
+        "status": "approximate"
+      },
+      "SplitToningBalance": {
+        "value": "100",
+        "status": "approximate"
+      }
+    }
+  },
+  "mean_absolute_channel_difference_0_to_1": 0.0065698825517863674,
+  "before_mean_rgb": [
+    0.328437463234958,
+    0.34125788398665596,
+    0.24779706699324963
+  ],
+  "after_mean_rgb": [
+    0.3363319256054634,
+    0.3368212714514597,
+    0.24212542342287466
+  ],
+  "source_files_unchanged": true
+}

@@ -1,0 +1,79 @@
+{
+  "renderer": "lrc-xmp-preview",
+  "renderer_version": "0.1.0",
+  "adobe_equivalent": false,
+  "lightroom_runtime_verified": false,
+  "input": "rocket.jpg",
+  "input_sha256": "c2dd0de7c538df8d111e479619b129464d0269d0ae5fd18ca91d33a7fdfea95c",
+  "preset": "平川参考_仅已知颜色分级.xmp",
+  "preset_sha256": "dd348e7c5c1026160194b6e8b146f0d63f1b8c3aa370e255b062801d7e0379dd",
+  "output": "rocket-grade.png",
+  "output_sha256": "85fbf4161131817fb5e5c6c7e610b026553a35d2d55264e9ee102667b09ee7df",
+  "normalization": {
+    "input_color_handling": "embedded ICC converted to sRGB",
+    "source_size": [
+      640,
+      427
+    ],
+    "preview_size": [
+      640,
+      427
+    ],
+    "exif_orientation_normalized": true,
+    "metadata_removed": true
+  },
+  "coverage": {
+    "counts": {
+      "approximate": 8,
+      "anchors_preserved_interpolation_approximate": 0,
+      "skipped": 0,
+      "descriptive": 0
+    },
+    "fields": {
+      "SplitToningShadowHue": {
+        "value": "156",
+        "status": "approximate"
+      },
+      "SplitToningShadowSaturation": {
+        "value": "40",
+        "status": "approximate"
+      },
+      "SplitToningHighlightHue": {
+        "value": "100",
+        "status": "approximate"
+      },
+      "SplitToningHighlightSaturation": {
+        "value": "7",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneHue": {
+        "value": "335",
+        "status": "approximate"
+      },
+      "ColorGradeMidtoneSat": {
+        "value": "32",
+        "status": "approximate"
+      },
+      "ColorGradeBlending": {
+        "value": "100",
+        "status": "approximate"
+      },
+      "SplitToningBalance": {
+        "value": "100",
+        "status": "approximate"
+      }
+    }
+  },
+  "mean_absolute_channel_difference_0_to_1": 0.005118967245409426,
+  "before_mean_rgb": [
+    0.16265764912533334,
+    0.22855426596880585,
+    0.32001496705250854
+  ],
+  "after_mean_rgb": [
+    0.16874796215400953,
+    0.22574692706178123,
+    0.3151057002934612
+  ],
+  "source_files_unchanged": true
+}
